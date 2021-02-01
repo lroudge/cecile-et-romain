@@ -26,10 +26,10 @@ jobs:
               env:
                   CI: true
 
-            # - name: Deploy 🚀
-            #   uses: JamesIves/github-pages-deploy-action@3.6.2
-            #   with:
-            #       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            #       BRANCH: master # The branch the action should deploy to.
-            #       FOLDER: src/out # The folder the action should deploy.
-            #       CLEAN: true # Automatically remove deleted files from the deploy branch
+            - name: Deploy 🚀
+              uses: JamesIves/github-pages-deploy-action@3.6.2
+              with:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                  BRANCH: github_page # The branch the action should deploy to.
+                  FOLDER: src/out # The folder the action should deploy.
+                  CLEAN: true # Automatically remove deleted files from the deploy branch
