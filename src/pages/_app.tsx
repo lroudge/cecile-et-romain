@@ -6,27 +6,23 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import AppLayout from "../components/layouts";
 import HomeLayout from "../components/layouts/home";
-import { useRouter } from "next/router";
 
-const MyApp = ({ Component, pageProps }: AppProps) => {
-	const router = useRouter();
+const MyApp = ({ Component, pageProps, router }: AppProps) => {
 	let component: React.ReactNode = <Component {...pageProps} />;
 	return (
 		<div className={styles.container}>
 			<Head>
-				<title>Cecile & Romain</title>
+				<title>Cécile & Romain</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			{router.pathname === "/" ? (
 				<HomeLayout />
 			) : (
-				<div>
+				<main className={styles.main}>
 					<Header />
-					<main className={styles.main}>
-						<AppLayout>{component}</AppLayout>
-						<Footer />
-					</main>
-				</div>
+					<AppLayout>{component}</AppLayout>
+					<Footer />
+				</main>
 			)}
 		</div>
 	);
