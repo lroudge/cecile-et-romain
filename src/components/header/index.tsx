@@ -4,7 +4,6 @@ import Link from "next/link";
 const Header = () => {
 	return (
 		<div className={styles.header}>
-			<Link href="/">Accueil</Link>
 			<Link href="/about">En bref</Link>
 			<Link href="/planning">Le planning</Link>
 			<Link href="/directions">Comment venir</Link>
