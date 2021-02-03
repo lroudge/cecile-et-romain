@@ -15,6 +15,7 @@ const Header = () => {
 		"/gallery": "Photos",
 		"/covid": "Infos Covid-19"
 	};
+
 	return (
 		<div className={styles.header}>
 			{Object.keys(options).map(key => {
