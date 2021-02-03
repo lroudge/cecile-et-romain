@@ -1,7 +1,7 @@
-export const Gallery = () => {
+export const Covid = () => {
 	return (
 		<div>
-			<h1>Photos</h1>
+			<h1>Infos Covid-19</h1>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a
 				tristique nisl. Aenean eget sapien nec lorem tincidunt lobortis
