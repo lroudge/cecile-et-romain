@@ -7,7 +7,7 @@ const Footer = () => {
 				href="https://github.com/lroudge"
 				target="_blank"
 				rel="noopener noreferrer">
-				Made with love by Laura
+				Made with love by lroudge
 			</a>
 		</footer>
 	);
