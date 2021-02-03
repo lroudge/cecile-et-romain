@@ -8,6 +8,7 @@
 	justify-content: center;
 	text-shadow: 0 1px 0 black;
 	font-size: 3vw;
+	font-family: "Engagement";
 }
 
 @keyframes blur {
@@ -46,7 +47,7 @@
 
 .header {
 	width: 100%;
-	height: 70px;
+	height: 10vh;
 	border-bottom: 0.5px solid #eaeaeaad;
 	display: flex;
 	flex-flow: wrap;
@@ -56,6 +57,20 @@
 	animation: appear 1s ease-in 0s forwards;
 	-webkit-animation: appear 1s ease-in 0s forwards;
 	-moz-animation: appear 1s ease-in 0s forwards;
+}
+
+.nav_option:hover {
+	font-size: 3vh;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 0;
+}
+
+.nav_option_clicked {
+	font-size: 3vh;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 0;
 }
 
 .main {
@@ -71,20 +86,32 @@
 }
 
 .content {
-	height: 60%;
-	flex: 2;
+	min-height: 80vh;
+	width: 95vw;
+	background-color: #eaeaeaad;
+	color: black;
+	font-size: 4vh;
+	text-align: center;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	animation: appear 1s ease-in 0s forwards;
-	-webkit-animation: appear 1s ease-in 0s forwards;
-	-moz-animation: appear 1s ease-in 0s forwards;
+	padding: 3vw;
+	animation: appear 1s ease-in 0s 1;
+	-webkit-animation: appear 1s ease-in 0s 1;
+	-moz-animation: appear 1s ease-in 0s 1;
+}
+
+.content p,
+.content h1 {
+	animation: appear 1s ease-in 0s 1;
+	-webkit-animation: appear 1s ease-in 0s 1;
+	-moz-animation: appear 1s ease-in 0s 1;
 }
 
 .footer {
 	width: 100%;
-	height: 50px;
+	height: 5vh;
 	border-top: 0.5px solid #eaeaeaad;
 	display: flex;
 	justify-content: center;
