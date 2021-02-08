@@ -8,7 +8,6 @@
 	justify-content: center;
 	text-shadow: 0 1px 0 black;
 	font-size: 3vw;
-	font-family: "Engagement";
 }
 
 @keyframes blur {
@@ -59,18 +58,21 @@
 	-moz-animation: appear 1s ease-in 0s forwards;
 }
 
+.nav_option {
+	transition-property: transform;
+	transition-duration: 0.3s;
+	transition-timing-function: ease;
+}
+
 .nav_option:hover {
-	font-size: 3vh;
+	transform: translateY(5px);
 	text-decoration: none;
-	font-weight: bold;
-	padding: 0;
 }
 
 .nav_option_clicked {
 	font-size: 3vh;
 	text-decoration: none;
 	font-weight: bold;
-	padding: 0;
 }
 
 .main {
