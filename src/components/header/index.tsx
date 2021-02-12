@@ -1,9 +1,12 @@
 import styles from "../../styles/Home.module.css";
 import Link from "next/link";
 import { useState } from "react";
+import { useRouter } from "next/router";
 
 const Header = () => {
-	const [activeItem, setActiveItem] = useState<string>("/about");
+	const router = useRouter();
+	const pathName = router.pathname;
+	const [activeItem, setActiveItem] = useState<string>(pathName);
 
 	const options = {
 		"/about": "En Bref",

@@ -8,7 +8,6 @@
 	justify-content: center;
 	text-shadow: 0 1px 0 black;
 	font-size: 3vw;
-	font-family: "Engagement";
 }
 
 @keyframes blur {
@@ -37,7 +36,7 @@
 	justify-content: flex-start;
 	align-items: stretch;
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
-		url("https://lh3.googleusercontent.com/pw/ACtC-3couPDqZfmPCOQGgB_DIPFntPAQ7R0T2QLVY63oGEyhsF_4u4ClfEp1lRtGSSyQKIsko4K5kw56b97xaxlS9ltfScodWj4hRploEY0YkAK1L_rLn4Mnuu_E0eR71N7QmeHR5sRUVbsnpSvJwgg-n5703A=w2164-h1442-no")
+		url("https://lh3.googleusercontent.com/pw/ACtC-3cv0rtmjkN_2k4leqPZ4lirivhBxEcTeTFThMulAD9bSpS52OenllJCSp-yoepJDEYt46WKAU-GlSJTBHabZi1v45nBWMGL2TjXhIOvmtc60bh6SwbP6hMaAoOzbqTcJCJOMX17L6yDmRg-AkkSdM_z_Q=w2560-h1440-no?authuser=0")
 			no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -59,18 +58,17 @@
 	-moz-animation: appear 1s ease-in 0s forwards;
 }
 
-.nav_option:hover {
-	font-size: 3vh;
-	text-decoration: none;
-	font-weight: bold;
-	padding: 0;
+.nav_option {
+	transition-property: font-size;
+	transition-duration: 0.3s;
+	transition-timing-function: ease;
 }
 
+.nav_option:hover,
 .nav_option_clicked {
 	font-size: 3vh;
-	text-decoration: none;
 	font-weight: bold;
-	padding: 0;
+	text-decoration: none;
 }
 
 .main {
@@ -94,12 +92,20 @@
 	text-align: center;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
-	padding: 3vw;
+	padding: 1vw 3vw;
 	animation: appear 1s ease-in 0s 1;
 	-webkit-animation: appear 1s ease-in 0s 1;
 	-moz-animation: appear 1s ease-in 0s 1;
+}
+
+.content p {
+	text-align: justify;
+}
+
+.content a:hover {
+	text-shadow: 0px 3px 3px #676262ab;
 }
 
 .content p,
