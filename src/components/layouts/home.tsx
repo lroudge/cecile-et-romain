@@ -7,7 +7,7 @@ const HomeLayout = () => {
 			<h1>Mariage de Cécile & Romain</h1>
 			<h2>28 Août 2021</h2>
 			<Link href="/about">
-				<a className={styles.nav_option}>Entrer</a>
+				<a className={styles.enter}>Entrer</a>
 			</Link>
 		</div>
 	);
