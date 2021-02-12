@@ -59,16 +59,26 @@
 }
 
 .nav_option {
-	transition-property: font-size;
+	transition-property: transform;
 	transition-duration: 0.3s;
 	transition-timing-function: ease;
 }
 
 .nav_option:hover,
 .nav_option_clicked {
-	font-size: 3vh;
+	transform: scale3d(1.5, 1.5, 1.5);
 	font-weight: bold;
 	text-decoration: none;
+}
+
+.enter {
+	transition-property: transform;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+}
+
+.enter:hover {
+	transform: scale3d(1.5, 1.5, 1.5);
 }
 
 .main {
