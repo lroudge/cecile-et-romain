@@ -1,11 +1,13 @@
 import "../styles/globals.css";
 import styles from "../styles/Home.module.css";
+import App from "next/app";
 import { AppProps } from "next/dist/next-server/lib/router/router";
 import Head from "next/head";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import AppLayout from "../components/layouts";
 import HomeLayout from "../components/layouts/home";
+import { appWithTranslation } from "../i18n";
 
 const MyApp = ({ Component, pageProps, router }: AppProps) => {
 	let component: React.ReactNode = <Component {...pageProps} />;
@@ -28,4 +30,9 @@ const MyApp = ({ Component, pageProps, router }: AppProps) => {
 	);
 };
 
-export default MyApp;
+MyApp.getInitialProps = async appContext => ({
+	namespacesRequired: ["common"],
+	...(await App.getInitialProps(appContext))
+});
+
+export default appWithTranslation(MyApp);
