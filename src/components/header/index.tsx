@@ -2,16 +2,14 @@ import styles from "../../styles/header.module.css";
 import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/router";
-import { useTranslation, withTranslation } from "../../i18n";
 
 const Header = () => {
 	const router = useRouter();
-	const { t } = useTranslation("common");
 	const pathName = router.pathname;
 	const [activeItem, setActiveItem] = useState<string>(pathName);
 
 	const options = {
-		"/about": t("about"),
+		"/about": "En Bref",
 		"/planning": "Le Planning",
 		"/directions": "Comment venir",
 		"/accomodation": "Se Loger",
@@ -42,4 +40,4 @@ const Header = () => {
 	);
 };
 
-export default withTranslation("common")(Header);
+export default Header;
