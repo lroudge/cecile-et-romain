@@ -1,4 +1,4 @@
-import styles from "../../styles/Home.module.css";
+import styles from "../../styles/header.module.css";
 import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/router";
@@ -24,15 +24,15 @@ const Header = () => {
 			{Object.keys(options).map(key => {
 				return (
 					<Link href={key} key={key}>
-						<a
-							onClick={() => setActiveItem(key)}
+						<div
 							className={
 								activeItem === key
 									? styles.nav_option_clicked
 									: styles.nav_option
-							}>
-							{options[key]}
-						</a>
+							}
+							onClick={() => setActiveItem(key)}>
+							<div className={styles.nav}>{options[key]}</div>
+						</div>
 					</Link>
 				);
 			})}

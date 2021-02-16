@@ -1,5 +1,6 @@
 import "../styles/globals.css";
 import styles from "../styles/Home.module.css";
+import App from "next/app";
 import { AppProps } from "next/dist/next-server/lib/router/router";
 import Head from "next/head";
 import Header from "../components/header";
