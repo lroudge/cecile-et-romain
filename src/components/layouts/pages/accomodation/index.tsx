@@ -2,10 +2,10 @@ export const Accomodation = () => {
 	return (
 		<div>
 			<h1>Se Loger</h1>
-			<p>
+			<div>
 				La Normandie et le Pays d'Auge sont des coins extrêmement
 				touristiques en été - Ne tardez pas trop à faire vos
-				réservations pour la nuit !
+				réservations pour le week-end !
 				<br />
 				<br />
 				Nous vous proposons différentes options d'hébergement grâce aux
@@ -38,7 +38,7 @@ export const Accomodation = () => {
 				</a>{" "}
 				sont également disponibles dans la région, n'hésitez pas à y
 				jeter un oeil.
-			</p>
+			</div>
 		</div>
 	);
 };

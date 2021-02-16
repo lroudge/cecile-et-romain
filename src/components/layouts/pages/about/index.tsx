@@ -1,8 +1,10 @@
+import styles from "../../../../styles/Home.module.css";
+
 export const About = () => {
 	return (
 		<div>
 			<h1>Bienvenue !</h1>
-			<p>
+			<div className={styles.about_content}>
 				Comme vous le savez, nous nous marions le <b>28 Août 2021</b> au{" "}
 				<a
 					target="_blank"
@@ -31,7 +33,7 @@ export const About = () => {
 					href="mailto: nous@cecile-et-romain.fr">
 					nous@cecile-et-romain.fr
 				</a>
-			</p>
+			</div>
 		</div>
 	);
 };
