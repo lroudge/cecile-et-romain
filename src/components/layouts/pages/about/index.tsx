@@ -28,8 +28,8 @@ export const About = () => {
 				<a
 					target="_blank"
 					rel="noreferrer nooponer"
-					href="mailto: cecile-et-romain@gmail.com">
-					cecile-et-romain@gmail.com
+					href="mailto: nous@cecile-et-romain.fr">
+					nous@cecile-et-romain.fr
 				</a>
 			</p>
 		</div>

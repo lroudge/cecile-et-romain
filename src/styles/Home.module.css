@@ -89,8 +89,13 @@
 	-moz-animation: appear 1s ease-in 0s 1;
 }
 
-.content p {
+.content p,
+.content div {
 	text-align: justify;
+}
+
+.content h1 {
+	text-align: center;
 }
 
 .content a {
@@ -102,6 +107,7 @@
 }
 
 .content p,
+.content div,
 .content h1 {
 	animation: appear 1s ease-in 0s 1;
 	-webkit-animation: appear 1s ease-in 0s 1;
