@@ -1,9 +1,5 @@
-// const { nextI18NextRewrites } = require("next-i18next/rewrites");
-
-// const localeSubpaths = {};
-
 module.exports = {
-	// publicRuntimeConfig: {
-	// 	localeSubpaths
-	// }
+	env: {
+		GOOGLE_API_TOKEN: process.env.GOOGLE_API_TOKEN
+	}
 };
