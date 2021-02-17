@@ -1,4 +1,4 @@
-import styles from "../../../../styles/Home.module.css";
+import styles from "../../../../styles/directions.module.css";
 import { FaCar, FaTrain, FaPlane } from "react-icons/fa";
 import { GiMagicLamp } from "react-icons/gi";
 
@@ -14,7 +14,7 @@ export const Directions = () => {
 				Domaine de Blosseville pour la cérémonie et au Château du Breuil
 				pour le brunch.
 				<br />
-				<h3>
+				<h2>
 					Domaine de Blosseville : Blosseville, 14600 Pennedepie{" "}
 					<a
 						target="_blank"
@@ -23,31 +23,40 @@ export const Directions = () => {
 ">
 						(Maps)
 					</a>
-				</h3>
-				<ul>
-					<li>
-						<FaCar /> Prendre l'A13 pour venir en Normandie pour
-						direction "Trouville" ou "Honfleur". Prendre ensuite la
-						D62. (Ou sinon, entrez juste les coordonnées dans Google
-						Maps, ça marche aussi.){" "}
-					</li>
-					<li>
-						<FaTrain /> Depuis Paris, prendre le train direction
-						"Trouville Deauville" ou "Honfleur". Le voyage dure
-						environ 2h en direct puis il faut prendre un autre moyen
-						de transport. Les deux gares sont équivalentes en terme
-						de distances pour aller à Pennedepie et le trajet dure
-						environ 10min.
-					</li>
-					<li>
-						<FaPlane /> Direction Paris CDG, puis il faut prendre un
-						autre moyen de transport.
-					</li>
-					<li>
-						<GiMagicLamp /> En tapis volant : Il trouvera tout seul.
-					</li>
-				</ul>
-				<h3>
+				</h2>
+				<div className={styles.map_block}>
+					<iframe
+						src={`https://www.google.com/maps/embed/v1/place?key=${
+							process.env.GOOGLE_API_TOKEN
+						}&q=${encodeURI("Manoir de Blosseville")}`}
+						width="500"
+						height="350"></iframe>
+					<ul className={styles.transport_list}>
+						<li>
+							<FaCar /> Prendre l'A13 pour venir en Normandie pour
+							direction "Trouville" ou "Honfleur". Prendre ensuite
+							la D62. (Ou sinon, entrez juste les coordonnées dans
+							Google Maps, ça marche aussi.){" "}
+						</li>
+						<li>
+							<FaTrain /> Depuis Paris, prendre le train direction
+							"Trouville Deauville" ou "Honfleur". Le voyage dure
+							environ 2h en direct puis il faut prendre un autre
+							moyen de transport. Les deux gares sont équivalentes
+							en terme de distances pour aller à Pennedepie et le
+							trajet dure environ 10min.
+						</li>
+						<li>
+							<FaPlane /> Direction Paris CDG, puis il faut
+							prendre un autre moyen de transport.
+						</li>
+						<li>
+							<GiMagicLamp /> En tapis volant : Il trouvera tout
+							seul.
+						</li>
+					</ul>
+				</div>
+				<h2>
 					Château du Breuil : Domaine du Breuil, Les Jourdains, 14130
 					Le Breuil en Auge{" "}
 					<a
@@ -57,26 +66,37 @@ export const Directions = () => {
 ">
 						(Maps)
 					</a>
-				</h3>
-				<ul>
-					<li>
-						<FaCar /> Prendre l'A13 puis la D579. (Ou utilisez
-						Maps.)
-					</li>
-					<li>
-						<FaTrain /> Depuis Paris, prendre le train direction
-						"Trouville Deauville" ou "Caen" et descendre à l'arrêt
-						"Lisieux". Le voyage dure 1h45 en direct. Puis trajet
-						jusqu'au Breuil en Auge d'environ 15 min.
-					</li>
-					<li>
-						<FaPlane /> Direction Paris CDG, puis il faut prendre un
-						autre moyen de transport.
-					</li>
-					<li>
-						<GiMagicLamp /> En tapis volant : Il sait où c'est.
-					</li>
-				</ul>
+				</h2>
+				<div className={styles.map_block}>
+					<iframe
+						src={`https://www.google.com/maps/embed/v1/place?key=${
+							process.env.GOOGLE_API_TOKEN
+						}&q=${encodeURI(
+							"Chateau du Breuil, Les Jourdains, 14130 Le Breuil en Auge"
+						)}`}
+						width="500"
+						height="350"></iframe>
+					<ul className={styles.transport_list}>
+						<li>
+							<FaCar /> Prendre l'A13 puis la D579. (Ou utilisez
+							Maps.)
+						</li>
+						<li>
+							<FaTrain /> Depuis Paris, prendre le train direction
+							"Trouville Deauville" ou "Caen" et descendre à
+							l'arrêt "Lisieux". Le voyage dure 1h45 en direct.
+							Puis trajet jusqu'au Breuil en Auge d'environ 15
+							min.
+						</li>
+						<li>
+							<FaPlane /> Direction Paris CDG, puis il faut
+							prendre un autre moyen de transport.
+						</li>
+						<li>
+							<GiMagicLamp /> En tapis volant : Il sait où c'est.
+						</li>
+					</ul>
+				</div>
 				<br />
 				Bien entendu si vous avez la moindre question n'hésitez pas à
 				nous contacter à l'adresse{" "}

@@ -2,7 +2,7 @@ import { GiLinkedRings, GiPartyPopper } from "react-icons/gi";
 import { FaCameraRetro, FaCocktail } from "react-icons/fa";
 import { SiGooglecalendar } from "react-icons/si";
 import { stringify } from "querystring";
-import styles from "../../../../styles/Home.module.css";
+import styles from "../../../../styles/planning.module.css";
 
 export type CalendarEventQuery = {
 	action: string;
@@ -87,16 +87,16 @@ export const Planning = () => {
 				</ul>
 				<br />
 				<div className={styles.event_title}>
-				<b> Dimanche 29 Août 2021 - Brunch </b>{" "}
-				<button className={styles.calendar_button}>
-					<SiGooglecalendar />{" "}
-					<a
-						rel="noopener noreferrer"
-						target="_blank"
-						href={makeGoogleCalendarUrl(brunchEvent)}>
-						Ajouter au Calendrier
-					</a>
-				</button>
+					<b> Dimanche 29 Août 2021 - Brunch </b>{" "}
+					<button className={styles.calendar_button}>
+						<SiGooglecalendar />{" "}
+						<a
+							rel="noopener noreferrer"
+							target="_blank"
+							href={makeGoogleCalendarUrl(brunchEvent)}>
+							Ajouter au Calendrier
+						</a>
+					</button>
 				</div>
 				<br />
 				Château du Breuil, Domaine du Breuil, 14130 Le Breuil en Auge

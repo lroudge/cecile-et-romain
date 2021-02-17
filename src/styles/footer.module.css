@@ -1,0 +1,12 @@
+.footer {
+	width: 100%;
+	height: 5vh;
+	border-top: 0.5px solid #eaeaeaad;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2vh;
+	animation: appear 1s ease-in 0s forwards;
+	-webkit-animation: appear 1s ease-in 0s forwards;
+	-moz-animation: appear 1s ease-in 0s forwards;
+}
