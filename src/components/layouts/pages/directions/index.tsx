@@ -29,7 +29,7 @@ export const Directions = () => {
 						src={`https://www.google.com/maps/embed/v1/place?key=${
 							process.env.GOOGLE_API_TOKEN
 						}&q=${encodeURI("Manoir de Blosseville")}`}
-						width="500"
+						width="400"
 						height="350"></iframe>
 					<ul className={styles.transport_list}>
 						<li>
@@ -74,7 +74,7 @@ export const Directions = () => {
 						}&q=${encodeURI(
 							"Chateau du Breuil, Les Jourdains, 14130 Le Breuil en Auge"
 						)}`}
-						width="500"
+						width="400"
 						height="350"></iframe>
 					<ul className={styles.transport_list}>
 						<li>

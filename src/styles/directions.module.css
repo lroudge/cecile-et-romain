@@ -10,3 +10,10 @@
 	width: 50%;
 	justify-content: space-between;
 }
+
+@media (max-width: 600px) {
+	.transport_list {
+		width: 100%;
+		padding: 0;
+	}
+}

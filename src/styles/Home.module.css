@@ -74,7 +74,7 @@
 
 .content {
 	min-height: 80vh;
-	width: 95vw;
+	width: 75vw;
 	background-color: #eaeaeaad;
 	color: black;
 	font-size: 2.5vh;
@@ -131,9 +131,6 @@
 @media (max-width: 600px) {
 	.content {
 		font-size: 2vh;
-	}
-	.transport_list {
-		width: 100%;
-		padding: 0;
+		width: 95vw;
 	}
 }
