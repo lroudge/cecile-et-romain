@@ -2,7 +2,7 @@ import { GiLinkedRings, GiPartyPopper } from "react-icons/gi";
 import { FaCameraRetro, FaCocktail } from "react-icons/fa";
 import { SiGooglecalendar } from "react-icons/si";
 import { stringify } from "querystring";
-import styles from "../../../../styles/Home.module.css";
+import styles from "../../../../styles/planning.module.css";
 
 export type CalendarEventQuery = {
 	action: string;
@@ -49,9 +49,8 @@ export const Planning = () => {
 				parapluie au besoin ! On croise toutefois les doigts pour que la
 				météo soit au rendez-vous !
 				<br />
-				<br />
 				<div className={styles.event_title}>
-					<b> Samedi 28 Août 2021 - Mariage </b>{" "}
+					<h2> Samedi 28 Août 2021 - Mariage </h2>{" "}
 					<button className={styles.calendar_button}>
 						<SiGooglecalendar />{" "}
 						<a
@@ -62,8 +61,7 @@ export const Planning = () => {
 						</a>
 					</button>
 				</div>
-				<br />
-				Domaine de Blosseville - Blosseville, 14600 Pennedepie
+				<b>Domaine de Blosseville - Blosseville, 14600 Pennedepie</b>
 				<br />
 				Le Domaine est doté d'un grand parking ouvert qui permet de se
 				garer sans soucis. Il est néanmoins nécessaire de venir en
@@ -85,21 +83,19 @@ export const Planning = () => {
 						<GiPartyPopper /> Repas & soirée : 19h30 - 5h30
 					</li>
 				</ul>
-				<br />
 				<div className={styles.event_title}>
-				<b> Dimanche 29 Août 2021 - Brunch </b>{" "}
-				<button className={styles.calendar_button}>
-					<SiGooglecalendar />{" "}
-					<a
-						rel="noopener noreferrer"
-						target="_blank"
-						href={makeGoogleCalendarUrl(brunchEvent)}>
-						Ajouter au Calendrier
-					</a>
-				</button>
+					<h2> Dimanche 29 Août 2021 - Brunch </h2>{" "}
+					<button className={styles.calendar_button}>
+						<SiGooglecalendar />{" "}
+						<a
+							rel="noopener noreferrer"
+							target="_blank"
+							href={makeGoogleCalendarUrl(brunchEvent)}>
+							Ajouter au Calendrier
+						</a>
+					</button>
 				</div>
-				<br />
-				Château du Breuil, Domaine du Breuil, 14130 Le Breuil en Auge
+				<b>Château du Breuil, Domaine du Breuil, 14130 Le Breuil en Auge</b>
 				<br />
 				Le Domaine est également doté d'un grand parking pour accueillir
 				les clients. Il vous sera toutefois possible de vous garer sur

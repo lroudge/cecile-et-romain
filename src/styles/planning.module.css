@@ -1,0 +1,29 @@
+.event_title {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.calendar_button {
+	margin-left: 1em;
+	background-color: #1a73e87d;
+	border: none;
+	color: white;
+	border-radius: 5px;
+	font-size: 2vh;
+	padding: 4px;
+	display: flex;
+	align-items: center;
+}
+
+.calendar_button a {
+	color: white;
+}
+
+.calendar_button:hover {
+	background-color: #1a73e8;
+}
+
+.calendar_button a:hover {
+	text-shadow: none;
+}
