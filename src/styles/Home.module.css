@@ -105,11 +105,12 @@
 }
 
 .content a {
-	color: #464343;
+	color: #96897f;
+	transition: color 0.4s ease-out;
 }
 
 .content a:hover {
-	text-shadow: 0px 0px 4px #52505099;
+	color: #655c55;
 }
 
 .content p,
