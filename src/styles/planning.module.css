@@ -6,24 +6,25 @@
 
 .calendar_button {
 	margin-left: 1em;
-	background-color: #1a73e87d;
+	background-color: #c9baaf;
 	border: none;
-	color: white;
 	border-radius: 5px;
 	font-size: 2vh;
 	padding: 4px;
 	display: flex;
 	align-items: center;
+	transition: background-color 0.4s ease-out;
 }
 
 .calendar_button a {
-	color: white;
+	color: black;
 }
 
 .calendar_button:hover {
-	background-color: #1a73e8;
+	background-color: #96897f;
 }
 
 .calendar_button a:hover {
 	text-shadow: none;
+	color: black;
 }
