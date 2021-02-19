@@ -16,10 +16,15 @@
 	transition: background-color 0.4s ease-out;
 }
 
+.calendar_button a {
+	color: black;
+}
+
 .calendar_button:hover {
 	background-color: #96897f;
 }
 
 .calendar_button a:hover {
 	text-shadow: none;
+	color: black;
 }
