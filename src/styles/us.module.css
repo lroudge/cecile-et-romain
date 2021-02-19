@@ -95,3 +95,10 @@
 .img_container:hover div {
 	display: none;
 }
+
+@media (max-width: 600px) {
+	.img_container {
+		height: 20vh !important;
+		font-size: 1.3vh;
+	}
+}
