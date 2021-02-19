@@ -2,6 +2,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	height: 15vh !important;
 }
 
 .calendar_button {
@@ -13,6 +14,8 @@
 	padding: 4px;
 	display: flex;
 	align-items: center;
+	justify-content: space-evenly;
+	width: 16vw;
 	transition: background-color 0.4s ease-out;
 }
 
@@ -27,4 +30,57 @@
 .calendar_button a:hover {
 	text-shadow: none;
 	color: black;
+}
+
+.button_group {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	width: 20% !important;
+	animation: none !important;
+}
+
+.button_group a,
+.button_group div {
+	border-radius: 20px;
+	background-color: #96897f;
+	color: black;
+	height: 35px;
+	width: 35px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 1;
+}
+
+.google_button {
+	animation: slide-in-up 0.5s forwards;
+}
+
+.apple_button {
+	animation: slide-in-down 0.5s forwards !important;
+}
+
+@keyframes slide-in-up {
+	0% {
+		opacity: 1;
+		transform: translateX(0px) translateY(0) rotate(0deg);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(1.5em) translateY(-0.5em) rotate(1080deg);
+	}
+}
+
+@keyframes slide-in-down {
+	0% {
+		opacity: 1;
+		transform: translateX(0px) translateY(0) rotate(0deg);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(1.5em) translateY(0.5em) rotate(1080deg);
+	}
 }

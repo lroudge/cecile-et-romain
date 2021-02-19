@@ -12,6 +12,7 @@
 		"next": "10.0.6",
 		"react": "17.0.1",
 		"react-dom": "17.0.1",
+		"react-icalendar-link": "^2.0.0",
 		"react-icons": "^4.2.0"
 	},
 	"devDependencies": {
