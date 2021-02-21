@@ -39,6 +39,7 @@
 	justify-content: space-evenly;
 	width: 20% !important;
 	animation: none !important;
+	-webkit-animation: none;
 }
 
 .button_group a,
@@ -57,10 +58,14 @@
 
 .google_button {
 	animation: slide-in-up 0.5s forwards;
+	-webkit-animation: slide-in-up 0.5s forwards;
+	-moz-animation: slide-in-up 0.5s forwards;
 }
 
 .apple_button {
 	animation: slide-in-down 0.5s forwards !important;
+	-webkit-animation: slide-in-down 0.5s forwards !important;
+	-moz-animation: slide-in-down 0.5s forwards !important;
 }
 
 @keyframes slide-in-up {
