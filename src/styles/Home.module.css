@@ -8,6 +8,9 @@
 	justify-content: center;
 	text-shadow: 0 1px 0 black;
 	font-size: 3vw;
+	animation: appear 0.5s ease-in 0s 1;
+	-webkit-animation: appear 0.5s ease-in 0s 1;
+	-moz-animation: appear 0.5s ease-in 0s 1;
 }
 
 @keyframes blur {
@@ -58,6 +61,7 @@
 
 .enter {
 	animation: zoominout 2s infinite;
+	margin-bottom: 5vh;
 }
 
 .main {

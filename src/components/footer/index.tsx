@@ -1,5 +1,6 @@
 import styles from "../../styles/footer.module.css";
 import { useTranslation, Trans } from "next-i18next";
+import ToggleLocale from "./togglelocale";
 
 const Footer = () => {
 	const { t } = useTranslation("common");
@@ -15,6 +16,7 @@ const Footer = () => {
 					</span>
 				</Trans>
 			</a>
+			<ToggleLocale />
 		</footer>
 	);
 };

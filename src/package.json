@@ -14,7 +14,8 @@
 		"react": "17.0.1",
 		"react-dom": "17.0.1",
 		"react-icalendar-link": "^2.0.0",
-		"react-icons": "^4.2.0"
+		"react-icons": "^4.2.0",
+		"react-switch": "^6.0.0"
 	},
 	"devDependencies": {
 		"@types/node": "^14.14.22",
