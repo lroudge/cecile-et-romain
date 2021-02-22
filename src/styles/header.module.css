@@ -68,6 +68,34 @@
 
 @media (max-width: 600px) {
 	.header {
-		font-size: 1.2vh;
+		font-size: 1.7vh;
+		height: auto;
+	}
+	.nav_option {
+		width: 20vw;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.nav_option::after {
+		content: "";
+		display: none;
+	}
+
+	.nav_option_clicked::after {
+		content: "";
+		display: none;
+	}
+
+	.nav_option:hover,
+	.nav_option_clicked {
+		text-shadow: 0px 0px 1px #fdfafac7;
+		text-decoration: none;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 	}
 }

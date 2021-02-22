@@ -50,6 +50,7 @@
 	height: 35px;
 	width: 35px;
 	text-align: center;
+	font-size: 2.5vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -87,5 +88,70 @@
 	100% {
 		opacity: 1;
 		transform: translateX(1.5em) translateY(0.5em) rotate(1080deg);
+	}
+}
+
+@media (max-width: 600px) {
+	.event_title h2 {
+		font-size: 2.2vh;
+		margin: 0;
+	}
+
+	.calendar_button {
+		margin-left: 2vw;
+		background-color: #c9baaf;
+		border: none;
+		border-radius: 5px;
+		font-size: 0;
+		padding: 4px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 7vw;
+		overflow-x: hidden;
+		transition: background-color 0.4s ease-out;
+	}
+	.calendar_button svg {
+		width: 100%;
+		font-size: 2vh;
+	}
+	.button_group {
+		width: 9% !important;
+	}
+
+	.button_group a,
+	.button_group div {
+		border-radius: 20px;
+		background-color: #96897f;
+		color: black;
+		height: 27px;
+		width: 27px;
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		opacity: 1;
+	}
+
+	@keyframes slide-in-up {
+		0% {
+			opacity: 1;
+			transform: translateX(0px) translateY(0) rotate(0deg);
+		}
+		100% {
+			opacity: 1;
+			transform: translateX(0.5em) translateY(-0.3em) rotate(1080deg);
+		}
+	}
+
+	@keyframes slide-in-down {
+		0% {
+			opacity: 1;
+			transform: translateX(0px) translateY(0) rotate(0deg);
+		}
+		100% {
+			opacity: 1;
+			transform: translateX(0.5em) translateY(0.3em) rotate(1080deg);
+		}
 	}
 }

@@ -33,7 +33,6 @@
 	height: 18vh !important;
 	width: 30vw !important;
 	transition: all 0.4s ease-out;
-	cursor: nesw-resize;
 }
 
 .img_container div {
@@ -101,8 +100,22 @@
 }
 
 @media (max-width: 600px) {
+	.timeline ul li:nth-child(even) div {
+		left: -43vw;
+	}
+
+	.timeline ul li:nth-child(odd) div {
+		left: 5em;
+	}
 	.img_container {
 		height: 20vh !important;
 		font-size: 1.3vh;
+	}
+
+	.img_container:hover .picture {
+		opacity: 1;
+		z-index: 1000;
+		/* height: 350%; */
+		width: 150%;
 	}
 }
