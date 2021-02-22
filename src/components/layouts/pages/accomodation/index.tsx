@@ -33,7 +33,7 @@ export const Accomodation = () => {
 				<a
 					rel="noopener noreferrer"
 					target="_blank"
-					href="https://www.airbnb.fr/">
+					href="https://www.airbnb.fr/s/Trouville~Deauville--Deauville--France/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&date_picker_type=calendar&query=Trouville-Deauville%2C%20Deauville%2C%20France&place_id=ChIJ2ajopKnU4UcRk-zDgh9Tp9M&checkin=2021-08-27&checkout=2021-08-29&source=structured_search_input_header&search_type=autocomplete_click">
 					AirBnB
 				</a>{" "}
 				sont également disponibles dans la région, n'hésitez pas à y

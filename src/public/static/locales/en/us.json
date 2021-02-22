@@ -1,0 +1,75 @@
+{
+	"title": "Notre Histoire",
+	"timeline": {
+		"0": {
+			"date": "06/11/2016",
+			"event": "On se rencontre au Café Charbon à Paris",
+			"img": ""
+		},
+		"1": {
+			"date": "01/12/2016",
+			"event": "Cécile commence à vivre chez Romain, car après tout, elle s’y sent très bien",
+			"img": ""
+		},
+		"2": {
+			"date": "08/03/2017",
+			"event": "Premier achat commun : La Nintendo Switch. On aime les jeux vidéos ou on les aime pas !",
+			"img": ""
+		},
+		"3": {
+			"date": "23/05/2017",
+			"event": "Premières vacances ensemble : Direction l’Andalousie !",
+			"img": ""
+		},
+		"4": {
+			"date": "15/10/2017",
+			"event": "On prend enfin un vrai appart ensemble",
+			"img": ""
+		},
+		"5": {
+			"date": "29/03/2018",
+			"event": "On se PACS ! C’est la suite logique de l’aventure (et ça facilite les déclarations d’impôts)",
+			"img": ""
+		},
+		"6": {
+			"date": "19/08/2018",
+			"event": "Les cartons sont faits, les bagages sont pliés, les visas sont imprimés : On s’envole pour les US !",
+			"img": ""
+		},
+		"7": {
+			"date": "05/10/2018",
+			"event": "Après 6 semaines intenses, on est enfin bien installés à San Francisco !",
+			"img": ""
+		},
+		"8": {
+			"date": "02/12/2018",
+			"event": "Suite aux problèmes de visa de Cécile, on décide de se fiancer en secret sur une plage à Santa Monica",
+			"img": ""
+		},
+		"9": {
+			"date": "06/12/2018",
+			"event": "On se marie légalement en toute intimité au City Hall de San Francisco. L’histoire raconte qu’on est allés bruncher après.",
+			"img": ""
+		},
+		"10": {
+			"date": "04/02/2019",
+			"event": "Cécile commence à travailler chez Ubisoft et on devient l’un des couples de la boite.",
+			"img": ""
+		},
+		"11": {
+			"date": "02/07/2019",
+			"event": "Pendant notre road trip dans les grands parcs américains, on parle de se remarier avec nos proches.",
+			"img": ""
+		},
+		"12": {
+			"date": "07/12/2019",
+			"event": "Un an et un jour après notre mariage américain, Romain fait la vraie demande en mariage en haut d’un volcan à Hawaii",
+			"img": ""
+		},
+		"13": {
+			"date": "28/08/2021",
+			"event": "C’est le jour du mariage !",
+			"img": ""
+		}
+	}
+}

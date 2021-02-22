@@ -10,9 +10,8 @@ export const About = () => {
 					target="_blank"
 					rel="noreferrer nooponer"
 					href="https://www.google.com/maps?q=domaine+de+blosseville&source=lmns&bih=937&biw=1920&rlz=1C1CHBF_frUS811US811&hl=en&sa=X&ved=2ahUKEwj5i5rOo-zuAhUNgHMKHUkqDSMQ_AUoAnoECAEQAg">
-					Domaine de Blosseville
+					Domaine de Blosseville, en Normandie.
 				</a>
-				, en Normandie.
 				<br />
 				Vous pourrez retrouver sur ce site toutes les informations
 				pratiques pour se rendre à notre mariage.
