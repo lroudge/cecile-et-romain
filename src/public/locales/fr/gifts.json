@@ -1,7 +1,5 @@
 {
     "title": "Liste de Mariage",
-    "find": "Vous retrouverez ",
-    "here": "ici",
-    "list": "une liste de mariage avec des choses qui nous feraient plaisir.",
+    "find": "Vous retrouverez <0>ici</0> une liste de mariage avec des choses qui nous feraient plaisir.",
     "conclusion": "Bien sûr un panier sera disponible le jour-même dans lequel vous pourrez déposer votre cadeau si vous préférez cette option !"
 }

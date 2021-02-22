@@ -7,6 +7,7 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import AppLayout from "../components/layouts";
 import HomeLayout from "../components/layouts/home";
+import { appWithTranslation } from "next-i18next";
 
 const MyApp = ({ Component, pageProps, router }: AppProps) => {
 	let component: React.ReactNode = <Component {...pageProps} />;
@@ -29,4 +30,4 @@ const MyApp = ({ Component, pageProps, router }: AppProps) => {
 	);
 };
 
-export default MyApp;
+export default appWithTranslation(MyApp);

@@ -1,17 +1,22 @@
+import { useTranslation, Trans } from "next-i18next";
+
 export const Gifts = () => {
+	const { t } = useTranslation("gifts");
 	return (
 		<div>
-			<h1>Liste de Mariage</h1>
+			<h1>{t("title")}</h1>
 			<p>
-				Vous retrouverez{" "}
-				<a target="_blank" rel="nooopener noreferrer" href="https://google.com">
-					ici
-				</a>{" "}
-				une liste de mariage avec des choses qui nous feraient plaisir.
+				<Trans i18nKey="find" t={t}>
+					<a
+						target="_blank"
+						rel="nooopener noreferrer"
+						href="https://google.com">
+						ici
+					</a>
+				</Trans>
 				<br />
 				<br />
-				Bien sûr un panier sera disponible le jour-même dans lequel vous
-				pourrez déposer votre cadeau si vous préférez cette option !
+				{t("conclusion")}
 			</p>
 		</div>
 	);
