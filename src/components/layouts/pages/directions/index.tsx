@@ -1,21 +1,18 @@
 import styles from "../../../../styles/directions.module.css";
 import { FaCar, FaTrain, FaPlane } from "react-icons/fa";
 import { GiMagicLamp } from "react-icons/gi";
+import { useTranslation, Trans } from "next-i18next";
 
 export const Directions = () => {
+	const { t } = useTranslation("directions");
 	return (
 		<div>
-			<h1>Comment venir</h1>
+			<h1>{t("title")}</h1>
 			<div>
-				C’est parti pour une virée en Normandie ! Le weekend se
-				déroulera à proximité de la maison des parents de Cécile, dans
-				le Calvados. La Normandie est une région très accessible en
-				transport. Vous avez plusieurs options pour vous rendre au
-				Domaine de Blosseville pour la cérémonie et au Château du Breuil
-				pour le brunch.
+				{t("intro")}
 				<br />
 				<h2>
-					Domaine de Blosseville : Blosseville, 14600 Pennedepie{" "}
+					{t("blosseville.title")}
 					<a
 						target="_blank"
 						rel="noreferrer nooponer"
@@ -33,32 +30,21 @@ export const Directions = () => {
 						height="350"></iframe>
 					<ul className={styles.transport_list}>
 						<li>
-							<FaCar /> Prendre l'A13 pour venir en Normandie pour
-							direction "Trouville" ou "Honfleur". Prendre ensuite
-							la D62. (Ou sinon, entrez juste les coordonnées dans
-							Google Maps, ça marche aussi.){" "}
+							<FaCar /> {t("blosseville.car")}
 						</li>
 						<li>
-							<FaTrain /> Depuis Paris, prendre le train direction
-							"Trouville Deauville" ou "Honfleur". Le voyage dure
-							environ 2h en direct puis il faut prendre un autre
-							moyen de transport. Les deux gares sont équivalentes
-							en terme de distances pour aller à Pennedepie et le
-							trajet dure environ 10min.
+							<FaTrain /> {t("blosseville.train")}
 						</li>
 						<li>
-							<FaPlane /> Direction Paris CDG, puis il faut
-							prendre un autre moyen de transport.
+							<FaPlane /> {t("blosseville.plane")}
 						</li>
 						<li>
-							<GiMagicLamp /> En tapis volant : Il trouvera tout
-							seul.
+							<GiMagicLamp /> {t("blosseville.magic")}
 						</li>
 					</ul>
 				</div>
 				<h2>
-					Château du Breuil : Domaine du Breuil, Les Jourdains, 14130
-					Le Breuil en Auge{" "}
+					{t("breuil.title")}
 					<a
 						target="_blank"
 						rel="noreferrer nooponer"
@@ -78,35 +64,28 @@ export const Directions = () => {
 						height="350"></iframe>
 					<ul className={styles.transport_list}>
 						<li>
-							<FaCar /> Prendre l'A13 puis la D579. (Ou utilisez
-							Maps.)
+							<FaCar /> {t("breuil.car")}
 						</li>
 						<li>
-							<FaTrain /> Depuis Paris, prendre le train direction
-							"Trouville Deauville" ou "Caen" et descendre à
-							l'arrêt "Lisieux". Le voyage dure 1h45 en direct.
-							Puis trajet jusqu'au Breuil en Auge d'environ 15
-							min.
+							<FaTrain /> {t("breuil.train")}
 						</li>
 						<li>
-							<FaPlane /> Direction Paris CDG, puis il faut
-							prendre un autre moyen de transport.
+							<FaPlane /> {t("breuil.plane")}
 						</li>
 						<li>
-							<GiMagicLamp /> En tapis volant : Il sait où c'est.
+							<GiMagicLamp /> {t("breuil.magic")}
 						</li>
 					</ul>
 				</div>
 				<br />
-				Bien entendu si vous avez la moindre question n'hésitez pas à
-				nous contacter à l'adresse{" "}
-				<a
-					target="_blank"
-					rel="noreferrer nooponer"
-					href="mailto: nous@cecile-et-romain.fr">
-					nous@cecile-et-romain.fr
-				</a>{" "}
-				ou nous appeler directement.
+				<Trans i18nKey="contact" t={t}>
+					<a
+						target="_blank"
+						rel="noreferrer nooponer"
+						href="mailto: nous@cecile-et-romain.fr">
+						nous@cecile-et-romain.fr
+					</a>
+				</Trans>
 			</div>
 		</div>
 	);

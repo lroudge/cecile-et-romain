@@ -1,0 +1,34 @@
+{
+	"title": "Planning",
+	"intro": "Oy mate!",
+	"ceremony": "Oy",
+	"weather": "Oy!",
+	"add_to_calendar": "Add to Calendar",
+	"wedding": {
+		"title": "Saturday, Auggust 28 2021 - Wedding Day",
+		"place": "Domaine de Blosseville - Blosseville, 14600 Pennedepie",
+		"info": "Oy",
+		"dresscode": "Oy",
+		"ceremony": "Ceremony: 3:30pm - 4:30pm",
+		"photos": "Group Photos: 4:30pm - 5pm",
+		"cocktail": "Cocktail: 5pm - 7:30pm",
+		"dinner": "Dinner & Party: 7:30pm - 5:30am"
+	},
+	"brunch": {
+		"title": "Sunday, August 29 2021 - Brunch",
+		"place": "Château du Breuil, Domaine du Breuil, 14130 Le Breuil en Auge",
+		"info": "Oy",
+		"dresscode": "Oy",
+		"program": "Oy"
+	},
+	"event": {
+		"wedding": {
+			"title": "Cécile & Romain's Wedding",
+			"description": "Ceremony, cocktail and dinner at the Domaine de Blosseville"
+		},
+		"brunch": {
+			"title": "Brunch Cécile & Romain",
+			"description": "Hangover brunch at the Château du Breuil"
+		}
+	}
+}

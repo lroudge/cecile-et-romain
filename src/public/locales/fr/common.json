@@ -1,0 +1,20 @@
+{
+	"header": {
+		"about": "En Bref",
+		"planning": "Le Planning",
+		"directions": "Comment venir",
+		"accomodation": "Se Loger",
+		"gifts": "Liste de Mariage",
+		"us": "Notre Histoire",
+		"gallery": "Photos",
+		"covid": "Infos Covid-19"
+	},
+	"footer": {
+		"made_by": "Fait avec <1>💛</1> par lroudge"
+	},
+	"splash": {
+		"title": "Mariage de Cécile & Romain",
+		"date": "28 Août 2021",
+		"enter": "Entrer"
+	}
+}

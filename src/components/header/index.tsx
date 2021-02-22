@@ -2,21 +2,23 @@ import styles from "../../styles/header.module.css";
 import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/router";
+import { useTranslation } from "next-i18next";
 
 const Header = () => {
 	const router = useRouter();
+	const { t } = useTranslation("common");
 	const pathName = router.pathname;
 	const [activeItem, setActiveItem] = useState<string>(pathName);
 
 	const options = {
-		"/about": "En Bref",
-		"/planning": "Le Planning",
-		"/directions": "Comment venir",
-		"/accomodation": "Se Loger",
-		"/gifts": "Liste de Mariage",
-		"/us": "Notre Histoire",
-		"/gallery": "Photos",
-		"/covid": "Infos Covid-19"
+		"/about": t("header.about"),
+		"/planning": t("header.planning"),
+		"/directions": t("header.directions"),
+		"/accomodation": t("header.accomodation"),
+		"/gifts": t("header.gifts"),
+		"/us": t("header.us"),
+		"/gallery": t("header.gallery"),
+		"/covid": t("header.covid")
 	};
 
 	return (

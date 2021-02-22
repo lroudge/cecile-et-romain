@@ -1,8 +1,11 @@
+import { useTranslation } from "next-i18next";
+
 export const Covid = () => {
+	const { t } = useTranslation("covid");
 	return (
 		<div>
-			<h1>Infos Covid-19</h1>
-			<h2>Infos à venir.</h2>
+			<h1>{t("title")}</h1>
+			<h2>{t("info")}</h2>
 		</div>
 	);
 };

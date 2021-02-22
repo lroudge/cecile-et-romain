@@ -1,0 +1,34 @@
+{
+	"title": "Le Planning",
+	"intro": "Vous trouverez ci-dessous le programme de la journée. On a hâte de la vivre à vos côtés !",
+	"ceremony": "Notre cérémonie ainsi que le vin d'honneur et la soirée auront lieu directement au domaine : Pas besoin de bouger !",
+	"weather": "La météo en Normandie a tendance à être un peu capricieuse à la fin de l'été. Il peut faire très beau et chaud tout comme il peut pleuvoir et faire vite frais. Pensez au petit pull voire au parapluie au besoin ! On croise toutefois les doigts pour que la météo soit au rendez-vous !",
+	"add_to_calendar": "Ajouter au Calendrier",
+	"wedding": {
+		"title": "Samedi 28 Août 2021 - Mariage",
+		"place": "Domaine de Blosseville - Blosseville, 14600 Pennedepie",
+		"info": "Le Domaine est doté d'un grand parking ouvert qui permet de se garer sans soucis. Il est néanmoins nécessaire de venir en voiture comme il s'agit d'un coin peu accessible à pied.",
+		"dresscode": "Tenue de cocktail exigée.",
+		"ceremony": "Cérémonie : 15h30 - 16h30",
+		"photos": "Photos de groupe : 16h30 - 17h",
+		"cocktail": "Cocktail : 17h - 19h30",
+		"dinner": "Repas & soirée : 19h30 - 5h30"
+	},
+	"brunch": {
+		"title": "Dimanche 29 Août 2021 - Brunch",
+		"place": "Château du Breuil, Domaine du Breuil, 14130 Le Breuil en Auge",
+		"info": "Le Domaine est également doté d'un grand parking pour accueillir les clients. Il vous sera toutefois possible de vous garer sur le parking et de finir à pied (3 min) jusqu'au Château où nous serons dans la cour intérieur du Château.",
+		"dresscode": "Tenue décontractée.",
+		"program": "Un brunch convivial pour récupérer et debriefer des grands moments de la journée de la veille !"
+	},
+	"event": {
+		"wedding": {
+			"title": "Mariage Cécile & Romain",
+			"description": "Cérémonie, cocktail et dîner au Domaine de Blosseville"
+		},
+		"brunch": {
+			"title": "Brunch Cécile & Romain",
+			"description": "Brunch de lendemain de mariage au Château du Breuil"
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"header": {
+		"about": "About",
+		"planning": "Planning",
+		"directions": "Directions",
+		"accomodation": "Accomodation",
+		"gifts": "Wedding Registry",
+		"us": "Our Story",
+		"gallery": "Photos",
+		"covid": "Covid-19 Info"
+	},
+	"footer": {
+		"made_by": "Made with <1>💛</1> by lroudge"
+	},
+	"splash": {
+		"title": "Cécile & Romain's Wedding",
+		"date": "August 28th 2021",
+		"enter": "Enter"
+	}
+}
