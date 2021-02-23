@@ -12,9 +12,12 @@ const Footer = () => {
 				rel="noopener noreferrer"
 				aria-describedby="new-window">
 				<Trans i18nKey="footer.made_by" t={t}>
-					<span role="img" aria-describedby="love"></span>
+					<span role="img" aria-label="love">
+						U+1F49B
+					</span>
 				</Trans>
 			</a>
+
 			<ToggleLocale />
 			<div hidden>
 				<span id="new-window">Opens in a new window</span>
