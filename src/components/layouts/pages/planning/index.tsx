@@ -85,7 +85,8 @@ export const Planning = () => {
 								? setButtonsVisible("")
 								: setButtonsVisible("weddingDay")
 						}>
-						<SiGooglecalendar /> {t("add_to_calendar")}
+						<SiGooglecalendar title="Calendar Icon" />{" "}
+						{t("add_to_calendar")}
 					</button>
 					{buttonsVisible === "weddingDay" ? (
 						<div className={styles.button_group}>
@@ -93,15 +94,16 @@ export const Planning = () => {
 								className={styles.google_button}
 								rel="noopener noreferrer"
 								target="_blank"
+								aria-describedby="new-window"
 								href={makeGoogleCalendarUrl(weddingDayEvent)}>
-								<FaGoogle />
+								<FaGoogle title="Add to Google Calendar" />
 							</a>
 
 							<div className={styles.apple_button}>
 								<ICalendarLink
 									event={weddingDayEventICal}
 									filename="wedding.ics">
-									<FaApple />
+									<FaApple title="Add to iCal" />
 								</ICalendarLink>
 							</div>
 						</div>
@@ -117,16 +119,16 @@ export const Planning = () => {
 				<br />
 				<ul>
 					<li>
-						<GiLinkedRings /> {t("wedding.ceremony")}
+						<GiLinkedRings title="rings" /> {t("wedding.ceremony")}
 					</li>
 					<li>
-						<FaCameraRetro /> {t("wedding.photos")}
+						<FaCameraRetro title="camera" /> {t("wedding.photos")}
 					</li>
 					<li>
-						<FaCocktail /> {t("wedding.cocktail")}
+						<FaCocktail title="cocktail" /> {t("wedding.cocktail")}
 					</li>
 					<li>
-						<GiPartyPopper /> {t("wedding.dinner")}
+						<GiPartyPopper title="party" /> {t("wedding.dinner")}
 					</li>
 				</ul>
 				<div className={styles.event_title}>
@@ -138,7 +140,8 @@ export const Planning = () => {
 								? setButtonsVisible("")
 								: setButtonsVisible("brunchDay")
 						}>
-						<SiGooglecalendar /> {t("add_to_calendar")}
+						<SiGooglecalendar title="Add to Calendar" />{" "}
+						{t("add_to_calendar")}
 					</button>
 					{buttonsVisible === "brunchDay" ? (
 						<div className={styles.button_group}>
@@ -146,14 +149,15 @@ export const Planning = () => {
 								className={styles.google_button}
 								rel="noopener noreferrer"
 								target="_blank"
+								aria-describedby="new-window"
 								href={makeGoogleCalendarUrl(brunchEvent)}>
-								<FaGoogle />
+								<FaGoogle title="Add to Google Calendar" />
 							</a>
 							<div className={styles.apple_button}>
 								<ICalendarLink
 									event={brunchEventICal}
 									filename="brunch.ics">
-									<FaApple />
+									<FaApple title="Add to iCal" />
 								</ICalendarLink>
 							</div>
 						</div>

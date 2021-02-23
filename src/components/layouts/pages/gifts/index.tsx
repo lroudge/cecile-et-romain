@@ -10,6 +10,7 @@ export const Gifts = () => {
 					<a
 						target="_blank"
 						rel="nooopener noreferrer"
+						aria-describedby="new-window"
 						href="https://google.com">
 						ici
 					</a>

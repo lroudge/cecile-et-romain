@@ -16,6 +16,7 @@ const ToggleLocale: React.FC<Props> = () => {
 	return (
 		<div className={styles.toggle_locale}>
 			<Switch
+				title="Toggle Language Between English and French"
 				onChange={() => {
 					setChecked(!checked);
 					router.push(router.asPath, router.asPath, {

@@ -9,14 +9,17 @@ const Footer = () => {
 			<a
 				href="https://github.com/lroudge"
 				target="_blank"
-				rel="noopener noreferrer">
+				rel="noopener noreferrer"
+				aria-describedby="new-window">
 				<Trans i18nKey="footer.made_by" t={t}>
-					<span role="img" aria-label="love">
-						💛
-					</span>
+					<span role="img" aria-describedby="love"></span>
 				</Trans>
 			</a>
 			<ToggleLocale />
+			<div hidden>
+				<span id="new-window">Opens in a new window</span>
+				<span id="love">love</span>
+			</div>
 		</footer>
 	);
 };

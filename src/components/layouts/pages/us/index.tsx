@@ -27,6 +27,7 @@ export const Us = () => {
 									{event.event}
 								</div>
 								<img
+									alt="Cecile & Romain picture"
 									src={event.img}
 									className={styles.picture}
 								/>
