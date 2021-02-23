@@ -72,106 +72,134 @@ export const Planning = () => {
 			<div>
 				{t("intro")}
 				<br />
+				<br />
 				{t("ceremony")}
+				<br />
 				<br />
 				{t("weather")}
 				<br />
 				<div className={styles.event_title}>
 					<h2> {t("wedding.title")} </h2>{" "}
-					<button
-						className={styles.calendar_button}
-						onClick={() =>
-							buttonsVisible === "weddingDay"
-								? setButtonsVisible("")
-								: setButtonsVisible("weddingDay")
-						}>
-						<SiGooglecalendar title="Calendar Icon" />{" "}
-						{t("add_to_calendar")}
-					</button>
-					{buttonsVisible === "weddingDay" ? (
-						<div className={styles.button_group}>
-							<a
-								className={styles.google_button}
-								rel="noopener noreferrer"
-								target="_blank"
-								aria-describedby="new-window"
-								href={makeGoogleCalendarUrl(weddingDayEvent)}>
-								<FaGoogle title="Add to Google Calendar" />
-							</a>
+					<div className={styles.cal_buttons_container}>
+						<button
+							className={styles.calendar_button}
+							onClick={() =>
+								buttonsVisible === "weddingDay"
+									? setButtonsVisible("")
+									: setButtonsVisible("weddingDay")
+							}>
+							<SiGooglecalendar title="Calendar Icon" />{" "}
+							{t("add_to_calendar")}
+						</button>
+						{buttonsVisible === "weddingDay" ? (
+							<div className={styles.button_group}>
+								<a
+									className={styles.google_button}
+									rel="noopener noreferrer"
+									target="_blank"
+									aria-describedby="new-window"
+									href={makeGoogleCalendarUrl(
+										weddingDayEvent
+									)}>
+									<FaGoogle title="Add to Google Calendar" />
+								</a>
 
-							<div className={styles.apple_button}>
-								<ICalendarLink
-									event={weddingDayEventICal}
-									filename="wedding.ics">
-									<FaApple title="Add to iCal" />
-								</ICalendarLink>
+								<div className={styles.apple_button}>
+									<ICalendarLink
+										event={weddingDayEventICal}
+										filename="wedding.ics">
+										<FaApple title="Add to iCal" />
+									</ICalendarLink>
+								</div>
 							</div>
-						</div>
-					) : (
-						[]
-					)}
+						) : (
+							[]
+						)}
+					</div>
 				</div>
-				<b>{t("wedding.place")}</b>
-				<br />
-				{t("wedding.info")}
-				<br />
-				{t("wedding.dresscode")}
-				<br />
-				<ul>
-					<li>
-						<GiLinkedRings title="rings" /> {t("wedding.ceremony")}
-					</li>
-					<li>
-						<FaCameraRetro title="camera" /> {t("wedding.photos")}
-					</li>
-					<li>
-						<FaCocktail title="cocktail" /> {t("wedding.cocktail")}
-					</li>
-					<li>
-						<GiPartyPopper title="party" /> {t("wedding.dinner")}
-					</li>
-				</ul>
+				<div className={styles.planning_section}>
+					<div>
+						<b>{t("wedding.place")}</b>
+						<br />
+						<br />
+						{t("wedding.info")}
+						<br />
+						{t("wedding.dresscode")}
+						<br />
+						<ul>
+							<li>
+								<GiLinkedRings title="rings" />{" "}
+								{t("wedding.ceremony")}
+							</li>
+							<li>
+								<FaCameraRetro title="camera" />{" "}
+								{t("wedding.photos")}
+							</li>
+							<li>
+								<FaCocktail title="cocktail" />{" "}
+								{t("wedding.cocktail")}
+							</li>
+							<li>
+								<GiPartyPopper title="party" />{" "}
+								{t("wedding.dinner")}
+							</li>
+						</ul>
+					</div>
+					<img
+						src="https://user-images.githubusercontent.com/44481637/108914470-ad69de80-762b-11eb-98e3-6b707d91e553.jpg"
+						alt="Domaine de Blosseville"></img>
+				</div>
 				<div className={styles.event_title}>
 					<h2> {t("brunch.title")} </h2>{" "}
-					<button
-						className={styles.calendar_button}
-						onClick={() =>
-							buttonsVisible === "brunchDay"
-								? setButtonsVisible("")
-								: setButtonsVisible("brunchDay")
-						}>
-						<SiGooglecalendar title="Add to Calendar" />{" "}
-						{t("add_to_calendar")}
-					</button>
-					{buttonsVisible === "brunchDay" ? (
-						<div className={styles.button_group}>
-							<a
-								className={styles.google_button}
-								rel="noopener noreferrer"
-								target="_blank"
-								aria-describedby="new-window"
-								href={makeGoogleCalendarUrl(brunchEvent)}>
-								<FaGoogle title="Add to Google Calendar" />
-							</a>
-							<div className={styles.apple_button}>
-								<ICalendarLink
-									event={brunchEventICal}
-									filename="brunch.ics">
-									<FaApple title="Add to iCal" />
-								</ICalendarLink>
+					<div className={styles.cal_buttons_container}>
+						<button
+							className={styles.calendar_button}
+							onClick={() =>
+								buttonsVisible === "brunchDay"
+									? setButtonsVisible("")
+									: setButtonsVisible("brunchDay")
+							}>
+							<SiGooglecalendar title="Add to Calendar" />{" "}
+							{t("add_to_calendar")}
+						</button>
+						{buttonsVisible === "brunchDay" ? (
+							<div className={styles.button_group}>
+								<a
+									className={styles.google_button}
+									rel="noopener noreferrer"
+									target="_blank"
+									aria-describedby="new-window"
+									href={makeGoogleCalendarUrl(brunchEvent)}>
+									<FaGoogle title="Add to Google Calendar" />
+								</a>
+								<div className={styles.apple_button}>
+									<ICalendarLink
+										event={brunchEventICal}
+										filename="brunch.ics">
+										<FaApple title="Add to iCal" />
+									</ICalendarLink>
+								</div>
 							</div>
-						</div>
-					) : (
-						[]
-					)}
+						) : (
+							[]
+						)}
+					</div>
 				</div>
-				<b>{t("brunch.place")}</b>
-				<br />
-				{t("brunch.info")}
-				<br />
-				{t("brunch.dresscode")}
-				<br />
-				{t("brunch.program")}
+				<div className={styles.planning_section}>
+					<div>
+						<b>{t("brunch.place")}</b>
+						<br />
+						<br />
+						{t("brunch.info")}
+						<br />
+						{t("brunch.dresscode")}
+						<br />
+						{t("brunch.program")}
+					</div>
+					<img
+						src="https://user-images.githubusercontent.com/44481637/108914477-af33a200-762b-11eb-975c-d6b7e00e1e26.jpg"
+						alt="Domaine de Blosseville"></img>
+				</div>
 			</div>
 		</div>
 	);

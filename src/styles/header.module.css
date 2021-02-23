@@ -7,7 +7,7 @@
 	justify-content: space-evenly;
 	align-items: center;
 	text-align: center;
-	font-size: 2vh;
+	font-size: 2.5vh;
 	animation: appear 1s ease-in 0s forwards;
 	-webkit-animation: appear 1s ease-in 0s forwards;
 	-moz-animation: appear 1s ease-in 0s forwards;
@@ -69,8 +69,8 @@
 
 @media (max-width: 1200px) {
 	.header {
-		font-size: 1.7vh;
-		height: 8vh;
+		font-size: 2vh;
+		height: min-content;
 	}
 	.nav_option {
 		width: 25vw;

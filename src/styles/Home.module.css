@@ -95,11 +95,12 @@
 
 .about_content {
 	font-size: 3vh;
+	text-align: center;
 }
 
 .content p,
 .content div {
-	text-align: justify;
+	text-align: center;
 	width: 100%;
 	height: 100%;
 }
