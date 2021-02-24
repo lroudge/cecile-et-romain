@@ -1,5 +1,11 @@
 .timeline {
 	overflow: scroll;
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
+.timeline::-webkit-scrollbar {
+	display: none;
 }
 
 .timeline ul li {
@@ -30,7 +36,8 @@
 .img_container {
 	position: relative;
 	bottom: 0;
-	height: 18vh !important;
+	min-height: 15vh !important;
+	height: 100% !important;
 	width: 30vw !important;
 	transition: all 0.4s ease-out;
 }
@@ -39,6 +46,7 @@
 	display: block;
 	width: 100%;
 	height: 100%;
+	min-height: 15vh !important;
 	background: #c9baaf;
 	transition: all 0.3s ease-out;
 	text-align: center;
@@ -48,7 +56,7 @@
 .img_container::before {
 	content: "";
 	position: absolute;
-	bottom: 7px;
+	bottom: 15px;
 	width: 0;
 	height: 0;
 	border-style: solid;
@@ -107,15 +115,18 @@
 	.timeline ul li:nth-child(odd) div {
 		left: 5em;
 	}
+
 	.img_container {
-		height: 20vh !important;
-		font-size: 1.3vh;
+		display: block;
+		min-height: 15vh !important;
+		height: 100% !important;
+		font-size: 1.5vh;
 	}
 
 	.img_container:hover .picture {
 		opacity: 1;
 		z-index: 1000;
-		/* height: 350%; */
-		width: 150%;
+		height: 100% !important;
+		width: 150% !important;
 	}
 }

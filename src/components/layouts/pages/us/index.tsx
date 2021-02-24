@@ -1,7 +1,7 @@
 import styles from "../../../../styles/us.module.css";
 import { useTranslation } from "next-i18next";
 
-const NB_EVENTS = 14;
+const NB_EVENTS = 21;
 
 export const Us = () => {
 	const { t } = useTranslation("us");
@@ -22,7 +22,8 @@ export const Us = () => {
 						<li key={index}>
 							<div className={styles.img_container}>
 								<div>
-									<time>{event.date}</time>
+									<b>{event.date}</b>
+									<br />
 									<br />
 									{event.event}
 								</div>

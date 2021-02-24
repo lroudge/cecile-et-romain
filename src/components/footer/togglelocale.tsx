@@ -1,9 +1,7 @@
 import React, { ReactNode, useState } from "react";
-import Link from "next/link";
 import { useRouter } from "next/router";
 import styles from "../../styles/footer.module.css";
 import Switch from "react-switch";
-import { useTranslation } from "next-i18next";
 
 type Props = {
 	children?: ReactNode;
@@ -24,8 +22,8 @@ const ToggleLocale: React.FC<Props> = () => {
 					});
 				}}
 				checked={checked}
-				height={40}
-				width={80}
+				height={30}
+				width={60}
 				onColor="#8e8a8a"
 				offColor="#8e8a8a"
 				checkedIcon={
@@ -35,7 +33,7 @@ const ToggleLocale: React.FC<Props> = () => {
 							justifyContent: "center",
 							alignItems: "center",
 							height: "100%",
-							fontSize: "3vh",
+							fontSize: "2vh",
 							paddingLeft: 2
 						}}
 						role="img"
@@ -50,7 +48,7 @@ const ToggleLocale: React.FC<Props> = () => {
 							justifyContent: "center",
 							alignItems: "center",
 							height: "100%",
-							fontSize: "3vh",
+							fontSize: "2vh",
 							paddingRight: 2
 						}}
 						role="img"

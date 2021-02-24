@@ -1,12 +1,12 @@
 .footer {
 	width: 100%;
-	height: 5vh;
+	height: min-content;
 	border-top: 0.5px solid #eaeaeaad;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	font-size: 2vh;
-	padding: 2vw;
+	padding: 0.2em;
 	animation: appear 1s ease-in 0s forwards;
 	-webkit-animation: appear 1s ease-in 0s forwards;
 	-moz-animation: appear 1s ease-in 0s forwards;
@@ -20,7 +20,7 @@
 }
 
 @media (max-width: 600px) {
-	.footer {
+	/* .footer {
 		height: 7vh;
-	}
+	} */
 }

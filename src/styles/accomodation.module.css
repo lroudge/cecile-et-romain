@@ -1,0 +1,23 @@
+.guides ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	padding-left: 0;
+}
+
+.guides li {
+	font-size: 2.5vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 40vh;
+	width: 50%;
+}
+
+.guides li img {
+	object-fit: contain;
+	height: 70%;
+	width: 100%;
+}
