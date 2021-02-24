@@ -8,9 +8,12 @@ export const Directions = () => {
 	return (
 		<div>
 			<h1>{t("title")}</h1>
-			<div>
+			<div className={styles.directions}>
 				{t("intro")}
 				<br />
+				{t("intro2")}
+				<br />
+				{t("intro3")}
 				<h2>
 					{t("blosseville.title")}
 					<a
@@ -28,8 +31,8 @@ export const Directions = () => {
 						src={`https://www.google.com/maps/embed/v1/place?key=${
 							process.env.GOOGLE_API_TOKEN
 						}&q=${encodeURI("Manoir de Blosseville")}`}
-						width="400"
-						height="350"></iframe>
+						width="50%"
+						height="400vh"></iframe>
 					<ul className={styles.transport_list}>
 						<li>
 							<FaCar title="car" /> {t("blosseville.car")}
@@ -65,8 +68,8 @@ export const Directions = () => {
 						}&q=${encodeURI(
 							"Chateau du Breuil, Les Jourdains, 14130 Le Breuil en Auge"
 						)}`}
-						width="400"
-						height="350"></iframe>
+						width="50%"
+						height="400vh"></iframe>
 					<ul className={styles.transport_list}>
 						<li>
 							<FaCar title="car" /> {t("breuil.car")}
@@ -84,6 +87,7 @@ export const Directions = () => {
 					</ul>
 				</div>
 				<br />
+				<br />
 				<Trans i18nKey="contact" t={t}>
 					<a
 						target="_blank"
@@ -93,6 +97,8 @@ export const Directions = () => {
 						nous@cecile-et-romain.fr
 					</a>
 				</Trans>
+				<br />
+				<br />
 			</div>
 		</div>
 	);

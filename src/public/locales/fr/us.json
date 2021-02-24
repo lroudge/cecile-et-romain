@@ -2,73 +2,108 @@
 	"title": "Notre Histoire",
 	"timeline": {
 		"0": {
-			"date": "06/11/2016",
-			"event": "On se rencontre au Café Charbon à Paris",
-			"img": "https://user-images.githubusercontent.com/44481637/108635399-8373b900-747f-11eb-9471-54b9f6ad8c5b.JPG"
+			"date": "06/11/2016 - Paris",
+			"event": "On se rencontre au Café Charbon à Paris. Soirée riche en émotions !",
+			"img": "https://user-images.githubusercontent.com/44481637/109033728-3d109b00-76c7-11eb-9171-6c91e2924f23.jpg"
 		},
 		"1": {
-			"date": "01/12/2016",
+			"date": "01/12/2016 - Paris",
 			"event": "Cécile commence à vivre chez Romain, car après tout, elle s’y sent très bien",
-			"img": "https://user-images.githubusercontent.com/44481637/108635365-60490980-747f-11eb-9aaa-fcac1c042e2c.JPG"
+			"img": "https://user-images.githubusercontent.com/44481637/109033724-3bdf6e00-76c7-11eb-858f-b321e084ac5d.PNG"
 		},
 		"2": {
-			"date": "08/03/2017",
+			"date": "08/03/2017 - Paris",
 			"event": "Premier achat commun : La Nintendo Switch. On aime les jeux vidéos ou on les aime pas !",
-			"img": "https://user-images.githubusercontent.com/44481637/108635562-4825ba00-7480-11eb-9bc3-31bfe3be6b83.JPG"
+			"img": "https://user-images.githubusercontent.com/44481637/109033742-40a42200-76c7-11eb-9e71-dc102d905505.jpg"
 		},
 		"3": {
-			"date": "23/05/2017",
+			"date": "23/05/2017 - Séville",
 			"event": "Premières vacances ensemble : Direction l’Andalousie !",
-			"img": "https://user-images.githubusercontent.com/44481637/108635576-655a8880-7480-11eb-80b4-fe91bb016d4f.JPG"
+			"img": "https://user-images.githubusercontent.com/44481637/109033720-3aae4100-76c7-11eb-938e-d436452c4895.jpg"
 		},
 		"4": {
-			"date": "15/10/2017",
-			"event": "On prend enfin un vrai appart ensemble",
-			"img": "https://user-images.githubusercontent.com/44481637/108635599-7f946680-7480-11eb-8b09-85f6ac1f302e.JPG"
+			"date": "15/10/2017 - Paris",
+			"event": "On prend enfin un vrai appart ensemble, en face du précédent appart de Romain.",
+			"img": "https://user-images.githubusercontent.com/44481637/109033735-3e41c800-76c7-11eb-9d19-50d3954583e7.jpg"
 		},
 		"5": {
-			"date": "29/03/2018",
-			"event": "On se PACS ! C’est la suite logique de l’aventure (et ça facilite les déclarations d’impôts)",
-			"img": "https://user-images.githubusercontent.com/44481637/108635640-af436e80-7480-11eb-9227-594c5a44d033.JPG"
+			"date": "29/03/2018 - Paris",
+			"event": "On se PACSe à la Mairie du XIIème arrondissement ! C’est la suite logique de l’aventure (et ça facilite les déclarations d’impôts)",
+			"img": "https://user-images.githubusercontent.com/44481637/109033714-397d1400-76c7-11eb-97de-8459e109aec6.jpg"
 		},
 		"6": {
-			"date": "19/08/2018",
-			"event": "Les cartons sont faits, les bagages sont pliés, les visas sont imprimés : On s’envole pour les US !",
-			"img": "https://user-images.githubusercontent.com/44481637/108635729-385aa580-7481-11eb-8ee2-d5ccf3a19cfd.JPG"
+			"date": "19/08/2018 - Paris",
+			"event": "Après des mois de préparation, es cartons sont faits, les bagages sont pliés, les visas sont imprimés : On s’envole pour les US !",
+			"img": "https://user-images.githubusercontent.com/44481637/109033709-371aba00-76c7-11eb-81fd-f08c65e0aa2f.jpeg"
 		},
 		"7": {
-			"date": "05/10/2018",
+			"date": "05/10/2018 - San Francisco",
 			"event": "Après 6 semaines intenses, on est enfin bien installés à San Francisco !",
 			"img": "https://user-images.githubusercontent.com/44481637/108635740-545e4700-7481-11eb-8229-03d471b64c5d.JPG"
 		},
 		"8": {
-			"date": "02/12/2018",
-			"event": "Suite aux problèmes de visa de Cécile, on décide de se fiancer en secret sur une plage à Santa Monica",
+			"date": "02/12/2018 - Santa Monica",
+			"event": "Suite aux problèmes de visa de Cécile, on décide de se fiancer en secret sur une plage du sud de la Californie",
 			"img": "https://user-images.githubusercontent.com/44481637/108635757-6b9d3480-7481-11eb-8d5c-9a895267a0e1.JPG"
 		},
 		"9": {
-			"date": "06/12/2018",
+			"date": "06/12/2018 - San Francisco",
 			"event": "On se marie légalement en toute intimité au City Hall de San Francisco. L’histoire raconte qu’on est allés bruncher après.",
 			"img": "https://user-images.githubusercontent.com/44481637/108635769-84a5e580-7481-11eb-8d15-abaa5b1ed52e.JPG"
 		},
 		"10": {
-			"date": "04/02/2019",
+			"date": "04/02/2019 - San Francisco",
 			"event": "Cécile commence à travailler chez Ubisoft et on devient l’un des couples de la boite.",
 			"img": "https://user-images.githubusercontent.com/44481637/108635791-a1dab400-7481-11eb-99bf-b21a29d539de.JPG"
 		},
 		"11": {
-			"date": "02/07/2019",
+			"date": "02/07/2019 - Grand Canyon",
 			"event": "Pendant notre road trip dans les grands parcs américains, on parle de se remarier avec nos proches.",
 			"img": "https://user-images.githubusercontent.com/44481637/108635809-bc149200-7481-11eb-8b49-ec89dee8c876.JPG"
 		},
 		"12": {
-			"date": "07/12/2019",
+			"date": "07/12/2019 - Maui",
 			"event": "Un an et un jour après notre mariage américain, Romain fait la vraie demande en mariage en haut d’un volcan à Hawaii",
 			"img": "https://user-images.githubusercontent.com/44481637/108635828-d51d4300-7481-11eb-85da-92e6a69f34a8.JPG"
 		},
 		"13": {
-			"date": "28/08/2021",
-			"event": "C’est le jour du mariage !",
+			"date": "15/02/2020 - San Diego",
+			"event": "On commence à penser au retour définitif en France.",
+			"img": "https://user-images.githubusercontent.com/44481637/108635828-d51d4300-7481-11eb-85da-92e6a69f34a8.JPG"
+		},
+		"14": {
+			"date": "01/03/2020 - San Francisco",
+			"event": "On découvre le confinement à deux, et ça se passe assez bien !",
+			"img": "https://user-images.githubusercontent.com/44481637/108635828-d51d4300-7481-11eb-85da-92e6a69f34a8.JPG"
+		},
+		"15": {
+			"date": "15/06/2020 - San Francisco",
+			"event": "On prend la décision de rentrer en France en fin d’année pour de multiples raisons.",
+			"img": "https://user-images.githubusercontent.com/44481637/108635828-d51d4300-7481-11eb-85da-92e6a69f34a8.JPG"
+		},
+		"16": {
+			"date": "01/10/2020 - San Francisco",
+			"event": "Romain trouve son nouveau boulot à Paris pour début janvier.",
+			"img": "https://user-images.githubusercontent.com/44481637/108635828-d51d4300-7481-11eb-85da-92e6a69f34a8.JPG"
+		},
+		"17": {
+			"date": "15/12/2020 - San Francisco",
+			"event": "Dernier jour à SF, c’est le grand retour et on est super heureux de rentrer !",
+			"img": "https://user-images.githubusercontent.com/44481637/108635828-d51d4300-7481-11eb-85da-92e6a69f34a8.JPG"
+		},
+		"18": {
+			"date": "22/12/2020 - Paris",
+			"event": "On trouve notre appart parisien et on est d’une redoutable efficacité à s’installer à Paris.",
+			"img": "https://user-images.githubusercontent.com/44481637/108635828-d51d4300-7481-11eb-85da-92e6a69f34a8.JPG"
+		},
+		"19": {
+			"date": "23/02/2021 - Paris",
+			"event": "C’est le tour de Cécile de trouver son nouveau boulot après quelques semaines de pause bien méritées.",
+			"img": "https://user-images.githubusercontent.com/44481637/108635828-d51d4300-7481-11eb-85da-92e6a69f34a8.JPG"
+		},
+		"20": {
+			"date": "28/08/2021 - Pennedepie",
+			"event": "C’est le jour du mariage ! Enfin !",
 			"img": "https://user-images.githubusercontent.com/44481637/108635850-f67e2f00-7481-11eb-98fe-1af33b216d23.JPG"
 		}
 	}

@@ -5,7 +5,7 @@ export const Gifts = () => {
 	return (
 		<div>
 			<h1>{t("title")}</h1>
-			<p>
+			<div>
 				<Trans i18nKey="find" t={t}>
 					<a
 						target="_blank"
@@ -18,7 +18,15 @@ export const Gifts = () => {
 				<br />
 				<br />
 				{t("conclusion")}
-			</p>
+				<br />
+				<div>
+					<img
+						height="50%"
+						width="50%"
+						alt="Glasses toasting with a heart"
+						src="https://user-images.githubusercontent.com/44481637/109026124-af7d7d00-76bf-11eb-90a7-57ed48a7ba6f.png"></img>
+				</div>
+			</div>
 		</div>
 	);
 };

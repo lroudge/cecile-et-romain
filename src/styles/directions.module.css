@@ -1,14 +1,23 @@
+.directions h2 {
+	text-align: left;
+}
+
 .map_block {
 	display: flex;
 	flex-direction: row;
 	flex-flow: wrap;
 	align-items: center;
-	justify-content: flex-start;
+	justify-content: space-between;
 }
 
 .transport_list {
 	width: 50%;
 	justify-content: space-between;
+	text-align: justify;
+}
+
+.transport_list li {
+	margin-bottom: 1em;
 }
 
 @media (max-width: 600px) {
@@ -18,5 +27,9 @@
 	}
 	.map_block {
 		overflow-x: scroll;
+	}
+	.map_block iframe {
+		width: 100%;
+		height: 50vh;
 	}
 }

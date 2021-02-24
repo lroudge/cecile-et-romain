@@ -134,6 +134,10 @@
 	margin: 0 0 5px 0;
 }
 
+.justify_text {
+	text-align: justify !important;
+}
+
 @media (max-width: 600px) {
 	.content {
 		font-size: 2vh;
