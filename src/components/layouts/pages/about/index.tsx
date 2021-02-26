@@ -6,8 +6,8 @@ export const About = () => {
 	return (
 		<div>
 			<h1>{t("title")}</h1>
-			<br/>
-			<div className={styles.about_content}>
+			<br />
+			<div className={styles.large_content}>
 				<Trans i18nKey="intro" t={t}>
 					<b>28 Août 2021</b>
 					<a
@@ -27,7 +27,7 @@ export const About = () => {
 				{t("soon")}
 				<br />
 				<br />
-				<br/>
+				<br />
 				<Trans i18nKey="contact" t={t}>
 					<b>PS :</b>
 					<br />
