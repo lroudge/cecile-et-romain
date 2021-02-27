@@ -2,11 +2,16 @@ html,
 body {
 	padding: 0;
 	margin: 0;
-	/* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
 	font-family: "Quicksand";
 	color: white;
 	text-shadow: 0 0.5px 0 black;
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+	overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+	display: none;
 }
 
 @font-face {
