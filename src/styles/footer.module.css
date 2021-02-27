@@ -5,6 +5,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	font-family: "Philosopher";
 	font-size: 2vh;
 	padding: 0.2em;
 	animation: appear 1s ease-in 0s forwards;

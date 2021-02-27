@@ -1,12 +1,11 @@
 .splash {
-	color: white;
+	color: rgba(255, 255, 255, 0.87);
 	display: flex;
 	height: 100%;
 	min-height: 100vh;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	text-shadow: 0 1px 0 black;
 	font-size: 3vw;
 	animation: appear 0.5s ease-in 0s 1;
 	-webkit-animation: appear 0.5s ease-in 0s 1;
@@ -79,8 +78,8 @@
 .content {
 	min-height: 80vh;
 	width: 75vw;
-	background-color: #eaeaeaad;
-	color: black;
+	background-color: #ccc5afaa;
+	color: rgba(0, 0, 0, 0.87);
 	font-size: 2.5vh;
 	text-align: center;
 	display: flex;
@@ -110,12 +109,12 @@
 }
 
 .content a {
-	color: #96897f;
+	color: var(--primary-dark);
 	transition: color 0.4s ease-out;
 }
 
 .content a:hover {
-	color: #655c55;
+	color: var(--secondary-color);
 }
 
 .content p,

@@ -2,36 +2,35 @@ html,
 body {
 	padding: 0;
 	margin: 0;
-	font-family: "Quicksand";
-	color: white;
-	text-shadow: 0 0.5px 0 black;
+	font-family: "Lato";
+	color: rgba(255, 255, 255, 0.87);
 	-ms-overflow-style: none; /* IE and Edge */
 	scrollbar-width: none; /* Firefox */
 	overflow-x: hidden;
+	--primary-color: #fff8e1;
+	--primary-light: #ffffff;
+	--primary-dark: #ccc5af;
+	--secondary-color: #5d4037;
+	--secondary-light: #8b6b61;
+	--secondary-dark: #321911;
 }
 
 body::-webkit-scrollbar {
 	display: none;
 }
 
-@font-face {
-	font-family: "Quicksand";
-	src: url("../fonts/Quicksand-VariableFont_wght.ttf") format("truetype");
+h1 {
+	font-family: "Philosopher";
 }
 
 @font-face {
-	font-family: "Josefin Sans";
-	src: url("../fonts/JosefinSans-VariableFont_wght.ttf") format("truetype");
+	font-family: "Philosopher";
+	src: url("../fonts/Philosopher-Regular.ttf") format("truetype");
 }
 
 @font-face {
-	font-family: "Great_Vibes";
-	src: url("../fonts/GreatVibes-Regular.ttf") format("truetype");
-}
-
-@font-face {
-	font-family: "Engagement";
-	src: url("../fonts/Engagement-Regular.ttf") format("truetype");
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.ttf") format("truetype");
 }
 
 a {

@@ -72,7 +72,7 @@ export const Directions = () => {
 						height="400vh"></iframe>
 					<ul className={styles.transport_list}>
 						<li>
-							<FaCar title="car" /> {t("breuil.car")}
+							<FaCar title="car" /> {" "}{t("breuil.car")}
 						</li>
 						<li>
 							<FaTrain title="train" /> {t("breuil.train")}
