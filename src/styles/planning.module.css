@@ -18,8 +18,9 @@
 }
 
 .calendar_button {
-	background-color: #c9baaf;
+	background-color: var(--primary-color);
 	border: none;
+	color: var(--secondary-color);
 	border-radius: 5px;
 	font-size: 2vh;
 	padding: 4px;
@@ -30,17 +31,9 @@
 	transition: background-color 0.4s ease-out;
 }
 
-.calendar_button a {
-	color: black;
-}
-
 .calendar_button:hover {
-	background-color: #96897f;
-}
-
-.calendar_button a:hover {
-	text-shadow: none;
-	color: black;
+	cursor: pointer;
+	background-color: var(--primary-dark);
 }
 
 .button_group {
@@ -56,8 +49,8 @@
 .button_group a,
 .button_group div {
 	border-radius: 20px;
-	background-color: #96897f;
-	color: black;
+	background-color: var(--primary-color);
+	color: var(--secondary-color);
 	height: 35px;
 	width: 35px;
 	text-align: center;
@@ -66,6 +59,11 @@
 	align-items: center;
 	justify-content: center;
 	opacity: 1;
+	transition: background-color 0.4s ease-out;
+}
+
+.button_group a:hover {
+	background-color: var(--primary-dark);
 }
 
 .google_button {
@@ -135,7 +133,8 @@
 
 	.calendar_button {
 		margin-left: 2vw;
-		background-color: #c9baaf;
+		background-color: var(--primary-color);
+		color: var(--secondary-color);
 		border: none;
 		border-radius: 5px;
 		font-size: 0;
@@ -160,13 +159,14 @@
 		align-items: center;
 		justify-content: flex-start;
 		height: 2em !important;
+		margin-top: 2vw;
 	}
 
 	.button_group a,
 	.button_group div {
-		border-radius: 20px;
-		background-color: #96897f;
-		color: black;
+		border-radius: 22px;
+		background-color: var(--primary-color);
+		color: var(--secondary-color);
 		height: 27px;
 		width: 27px;
 		text-align: center;
