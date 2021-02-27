@@ -109,12 +109,12 @@
 }
 
 .content a {
-	color: var(--primary-dark);
+	color: var(--secondary-light);
 	transition: color 0.4s ease-out;
 }
 
 .content a:hover {
-	color: var(--secondary-color);
+	color: var(--secondary-dark);
 }
 
 .content p,

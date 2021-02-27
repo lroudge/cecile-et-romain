@@ -15,25 +15,31 @@ export const Accomodation = () => {
 					<br />
 					<ul>
 						<li>
-							<a
-								rel="noopener noreferrer"
-								target="_blank"
-								aria-describedby="new-window"
-								href="https://trello-attachments.s3.amazonaws.com/6017bdd0093fd15ce1e14f65/602aa62a7fb32c4de9b2822a/5d4b0c6b40a555b3750aaa2f33754748/Guide_H%C3%A9bergement_Trouville_2021.pdf">
-								{t("deauville")}
-							</a>
+							<h3>
+								{t("deauville")}{" "}
+								<a
+									rel="noopener noreferrer"
+									target="_blank"
+									aria-describedby="new-window"
+									href="https://trello-attachments.s3.amazonaws.com/6017bdd0093fd15ce1e14f65/602aa62a7fb32c4de9b2822a/5d4b0c6b40a555b3750aaa2f33754748/Guide_H%C3%A9bergement_Trouville_2021.pdf">
+									(Guide)
+								</a>
+							</h3>
 							<img
 								alt="Touristic Guide for Deauville Cover"
 								src="https://user-images.githubusercontent.com/44481637/109021324-13517700-76bb-11eb-8b9d-6665b85e76e1.jpg"></img>
 						</li>
 						<li>
-							<a
-								rel="noopener noreferrer"
-								target="_blank"
-								aria-describedby="new-window"
-								href="https://trello-attachments.s3.amazonaws.com/6017bdd0093fd15ce1e14f65/602aa62a7fb32c4de9b2822a/156f47e7c6baf72f88897d995892535d/Guide_Hebergement_2021_Web.pdf">
-								{t("honfleur")}
-							</a>
+							<h3>
+								{t("honfleur")}{" "}
+								<a
+									rel="noopener noreferrer"
+									target="_blank"
+									aria-describedby="new-window"
+									href="https://trello-attachments.s3.amazonaws.com/6017bdd0093fd15ce1e14f65/602aa62a7fb32c4de9b2822a/156f47e7c6baf72f88897d995892535d/Guide_Hebergement_2021_Web.pdf">
+									(Guide)
+								</a>
+							</h3>
 							<img
 								alt="Touristic Guide for Honfleur Cover"
 								src="https://user-images.githubusercontent.com/44481637/109021353-18aec180-76bb-11eb-95fb-8d427fc70160.jpg"></img>

@@ -92,7 +92,7 @@
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 0;
+	top: -7.5vh;
 	bottom: 0;
 	object-fit: contain;
 	height: 0%;
