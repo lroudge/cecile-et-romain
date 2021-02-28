@@ -14,17 +14,17 @@ export const Directions = () => {
 				{t("intro2")}
 				<br />
 				{t("intro3")}
-				<h2>
-					{t("blosseville.title")}
+				<div className={styles.directions_title}>
+					<h2>{t("blosseville.title")}</h2>
 					<a
 						target="_blank"
 						rel="noreferrer noopener"
 						aria-describedby="new-window"
 						href="https://www.google.com/maps/place/Manoir+de+Blosseville/@49.3991329,0.1613188,17z/data=!3m1!4b1!4m5!3m4!1s0x47e02d81e05fa59d:0xbcf3bf2ba2a91605!8m2!3d49.3991329!4d0.1635075?hl=en
 ">
-						(Maps)
+						{t("blosseville.address")}
 					</a>
-				</h2>
+				</div>
 				<div className={styles.map_block}>
 					<iframe
 						title="Manoir de Blosseville on Maps"
@@ -32,7 +32,7 @@ export const Directions = () => {
 							process.env.GOOGLE_API_TOKEN
 						}&q=${encodeURI("Manoir de Blosseville")}`}
 						width="50%"
-						height="400vh"></iframe>
+						height="400px"></iframe>
 					<ul className={styles.transport_list}>
 						<li>
 							<FaCar title="car" /> {t("blosseville.car")}
@@ -49,17 +49,17 @@ export const Directions = () => {
 						</li>
 					</ul>
 				</div>
-				<h2>
-					{t("breuil.title")}
+				<div className={styles.directions_title}>
+					<h2>{t("breuil.title")}</h2>
 					<a
 						target="_blank"
 						rel="noreferrer noopener"
 						aria-describedby="new-window"
 						href="https://www.google.com/maps/place/Ch%C3%A2teau+du+Breuil/@49.2306248,0.2127819,17z/data=!3m1!4b1!4m5!3m4!1s0x47e1cfa708ce7d1f:0x529f9aa74ea74c7!8m2!3d49.2306213!4d0.2149706?hl=en
 ">
-						(Maps)
+						{t("breuil.address")}
 					</a>
-				</h2>
+				</div>
 				<div className={styles.map_block}>
 					<iframe
 						title="Chateau du Breuil on Maps"
@@ -69,10 +69,10 @@ export const Directions = () => {
 							"Chateau du Breuil, Les Jourdains, 14130 Le Breuil en Auge"
 						)}`}
 						width="50%"
-						height="400vh"></iframe>
+						height="400px"></iframe>
 					<ul className={styles.transport_list}>
 						<li>
-							<FaCar title="car" /> {" "}{t("breuil.car")}
+							<FaCar title="car" /> {t("breuil.car")}
 						</li>
 						<li>
 							<FaTrain title="train" /> {t("breuil.train")}

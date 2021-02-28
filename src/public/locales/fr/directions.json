@@ -4,14 +4,16 @@
 	"intro2": "Le weekend se déroulera à proximité de la maison des parents de Cécile, dans le Calvados. La Normandie est une région très accessible en transport.",
 	"intro3": "Vous avez plusieurs options pour vous rendre au Domaine de Blosseville pour la cérémonie et au Château du Breuil pour le brunch.",
 	"blosseville": {
-		"title": "Domaine de Blosseville : Blosseville, 14600 Pennedepie ",
+		"title": "Domaine de Blosseville",
+		"address": "Blosseville, 14600 Pennedepie",
 		"car": "Prendre l'A13 pour venir en Normandie pour direction 'Trouville' ou 'Honfleur'. Prendre ensuite la D62.",
 		"train": "Depuis Paris, prendre le train direction 'Trouville Deauville' ou 'Honfleur'. Le voyage dure environ 2h en direct puis il faut prendre un autre moyen de transport. Les deux gares sont équivalentes en terme de distances pour aller à Pennedepie et le trajet dure environ 10min.",
 		"plane": "Direction Paris CDG, puis il faut prendre un autre moyen de transport.",
 		"magic": "En tapis volant : Il trouvera tout seul."
 	},
 	"breuil": {
-		"title": "Château du Breuil : Domaine du Breuil, Les Jourdains, 14130 Le Breuil en Auge ",
+		"title": "Château du Breuil",
+		"address": "Domaine du Breuil, Les Jourdains, 14130 Le Breuil en Auge",
 		"car": "Prendre l'A13 puis la D579.",
 		"train": "Depuis Paris, prendre le train direction 'Trouville Deauville' ou 'Caen' et descendre à l'arrêt 'Lisieux'. Le voyage dure 1h45 en direct. Puis trajet jusqu'au Breuil en Auge d'environ 15 min.",
 		"plane": "Direction Paris CDG, puis il faut prendre un autre moyen de transport.",

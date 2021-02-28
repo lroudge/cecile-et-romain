@@ -4,6 +4,7 @@
 	align-items: center;
 	justify-content: space-evenly;
 	padding-left: 0;
+	padding-bottom: 2em;
 }
 
 .guides li {
@@ -20,4 +21,10 @@
 	object-fit: contain;
 	height: 70%;
 	width: 100%;
+}
+
+@media (max-width: 800px) {
+	.guides h3 {
+		font-size: 2vh;
+	}
 }

@@ -2,7 +2,7 @@
 	overflow: scroll;
 	-ms-overflow-style: none; /* IE and Edge */
 	scrollbar-width: none; /* Firefox */
-	padding-bottom: 5vh;
+	padding-bottom: 10vh;
 }
 
 .timeline::-webkit-scrollbar {
