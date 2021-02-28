@@ -1,16 +1,16 @@
-import { Accomodation } from "../components/layouts/pages/accomodation";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import { Accommodation } from "../components/layouts/pages/accommodation";
 
-const AccomodationPage = () => <Accomodation />;
+const AccommodationPage = () => <Accommodation />;
 
-export default AccomodationPage;
+export default AccommodationPage;
 
 export const getStaticProps = async ({ locale }) => {
 	return {
 		props: {
 			...(await serverSideTranslations(locale, [
 				"common",
-				"accomodation"
+				"accommodation"
 			]))
 		}
 	};
