@@ -1,8 +1,8 @@
-import { useTranslation, Trans } from "next-i18next";
-import styles from "../../../../styles/accomodation.module.css";
+import { Trans, useTranslation } from "next-i18next";
+import styles from "../../../../styles/accommodation.module.css";
 
-export const Accomodation = () => {
-	const { t } = useTranslation("accomodation");
+export const Accommodation = () => {
+	const { t } = useTranslation("accommodation");
 	return (
 		<div>
 			<h1>{t("title")}</h1>

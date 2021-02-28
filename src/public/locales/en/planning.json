@@ -1,14 +1,14 @@
 {
 	"title": "Planning",
-	"intro": "Oy mate!",
-	"ceremony": "Oy",
-	"weather": "Oy!",
+	"intro": "You will find below the planning for the wedding. We can't wait to live it by your sides!",
+	"ceremony": "Our wedding ceremony, the cocktail, and the party will all happen on the domain: no need to travel during the day!",
+	"weather": "The weather in Normandy can be unpredictable at the end summer. It can be very sunny and hot, or rain and be chilly. Please take some warm clothes and an umbrella if need be! We certainly hope the weather will be nice for the wedding!",
 	"add_to_calendar": "Add to Calendar...",
 	"wedding": {
 		"title": "Saturday, August 28 2021 - Wedding Day",
 		"place": "Domaine de Blosseville - Blosseville, 14600 Pennedepie",
-		"info": "Oy",
-		"dresscode": "Oy",
+		"info": "A large open parking is available on the domain to park your car. You will however need to drive or take a cab there, as it's not easily accessible otherwise.",
+		"dresscode": "Cocktail outfit required.",
 		"ceremony": "Ceremony: 3:30pm - 4:30pm",
 		"photos": "Group Photos: 4:30pm - 5pm",
 		"cocktail": "Cocktail: 5pm - 7:30pm",
@@ -16,10 +16,10 @@
 	},
 	"brunch": {
 		"title": "Sunday, August 29 2021 - Brunch",
-		"place": "Château du Breuil, Domaine du Breuil, 14130 Le Breuil en Auge",
-		"info": "Oy",
-		"dresscode": "Oy",
-		"program": "Oy"
+		"place": "Château du Breuil, Domaine du Breuil, 14130 Le Breuil-en-Auge",
+		"info": "An open parking is available for clients. You can park there and walk to the domain (3 min), we will be in the inner courtyard.",
+		"dresscode": "Casual outfit.",
+		"program": "A friendly brunch to recover and remember together the best moments of the day before!"
 	},
 	"event": {
 		"wedding": {

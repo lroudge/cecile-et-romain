@@ -1,8 +1,8 @@
-import styles from "../../styles/header.module.css";
-import Link from "next/link";
-import { useState } from "react";
-import { useRouter } from "next/router";
 import { useTranslation } from "next-i18next";
+import Link from "next/link";
+import { useRouter } from "next/router";
+import { useState } from "react";
+import styles from "../../styles/header.module.css";
 
 const Header = () => {
 	const router = useRouter();
@@ -14,7 +14,7 @@ const Header = () => {
 		"/about": t("header.about"),
 		"/planning": t("header.planning"),
 		"/directions": t("header.directions"),
-		"/accomodation": t("header.accomodation"),
+		"/accommodation": t("header.accommodation"),
 		"/gifts": t("header.gifts"),
 		"/us": t("header.us"),
 		"/gallery": t("header.gallery"),
