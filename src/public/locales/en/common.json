@@ -3,8 +3,8 @@
 		"about": "About",
 		"planning": "Planning",
 		"directions": "Directions",
-		"accomodation": "Accomodation",
-		"gifts": "Wedding Registry",
+		"accomodation": "Accommodation",
+		"gifts": "Wedding List",
 		"us": "Our Story",
 		"gallery": "Photos",
 		"covid": "Covid-19 Info"
@@ -14,7 +14,7 @@
 	},
 	"splash": {
 		"title": "Cécile & Romain's Wedding",
-		"date": "August 28th 2021",
+		"date": "August 28th, 2021",
 		"enter": "Enter"
 	}
 }
