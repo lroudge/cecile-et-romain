@@ -120,7 +120,7 @@
 	object-fit: contain;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
 	.event_title {
 		justify-content: flex-start;
 		align-items: start;
@@ -144,7 +144,7 @@
 		width: 50%;
 		transition: background-color 0.4s ease-out;
 	}
-	
+
 	.button_group {
 		width: 9% !important;
 	}

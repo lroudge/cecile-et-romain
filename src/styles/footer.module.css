@@ -5,7 +5,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	font-family: "Philosopher";
+	font-family: "Lato";
 	font-size: 2vh;
 	padding: 0.2em;
 	animation: appear 1s ease-in 0s forwards;
@@ -18,10 +18,4 @@
 	flex-direction: row;
 	justify-content: space-evenly;
 	align-items: center;
-}
-
-@media (max-width: 600px) {
-	/* .footer {
-		height: 7vh;
-	} */
 }
