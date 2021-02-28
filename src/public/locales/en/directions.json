@@ -1,23 +1,23 @@
 {
-	"title": "Oy mate",
-	"intro": "Oy",
-	"intro2": "Oy",
-	"intro3": "Oy",
+	"title": "Directions",
+	"intro": "Let's go for a trip to Normandy!",
+	"intro2": "The weekend will take place close to Cécile's family house, in the region of Calvados. Normandy is region with a good transportation network.",
+	"intro3": "There are multiple ways to come to the Domaine de Blosseville for the wedding ceremony and the Château du Breuil for the brunch.",
 	"blosseville": {
-		"title": "Oy",
-		"address": "Oy",
-		"car": "Oy",
-		"train": "Oy",
-		"plane": "Oy",
-		"magic": "Oy"
+		"title": "Domaine de Blosseville",
+		"address": "Blosseville, 14600 Pennedepie",
+		"car": "Take the A13 to Normandy, towards 'Trouville' or 'Honfleur'. Then, take the D62.",
+		"train": "From Paris, take a train for 'Trouville Deauville' or 'Honfleur'. The trip takes about 2h for a direct train, then you will need another mean of transportation. It takes about 10 minutes in car from either station to reach Pennedepie.",
+		"plane": "You will need to land at Paris Charles-de-Gaulle. From there, take the RER B towards Robinson/Saint-Rémy-lès-Chevreuse, then the metro 14 at Châtelet-Les Halles towards Mairie de Saint-Ouen to get off at Saint-Lazare station. You will then need to take the train from there.",
+		"magic": "In flying carpet: it will find its way alone."
 	},
 	"breuil": {
-		"title": "Oy",
-		"address": "Oy",
-		"car": "Oy",
-		"train": "Oy",
-		"plane": "Oy",
-		"magic": "Oy"
+		"title": "Château du Breuil",
+		"address": "Domaine du Breuil, Les Jourdains, 14130 Le Breuil-en-Auge",
+		"car": "Take the A13, then the D579.",
+		"train": "From Paris, take a train for 'Trouville Deauville' or 'Caen' and get off at 'Lisieux'. The trip takes about 2h for a direct train. It then takes about 10 minutes in car to reach Le Breuil-en-Auge.",
+		"plane": "You will need to land at Paris Charles-de-Gaulle. From there, take the RER B towards Robinson/Saint-Rémy-lès-Chevreuse, then the metro 14 at Châtelet-Les Halles towards Mairie de Saint-Ouen to get off at Saint-Lazare station. You will then need to take the train from there.",
+		"magic": "In flying carpet: it knows where to go."
 	},
-	"contact": "Oy <0>nous@cecile-et-romain.fr</0> Oy"
+	"contact": "PLease don't hesitate to contact us at <0>nous@cecile-et-romain.fr</0> if you have any question, or call us directly."
 }
