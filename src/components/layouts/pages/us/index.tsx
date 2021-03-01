@@ -1,11 +1,18 @@
 import styles from "../../../../styles/us.module.css";
 import { useTranslation } from "next-i18next";
+import { Props } from "../..";
 
 const NB_EVENTS = 21;
 
-export const Us = () => {
+type Event = {
+	date: string;
+	event: string;
+	img: string;
+};
+
+export const Us: React.FC<Props> = () => {
 	const { t } = useTranslation("us");
-	let events = [];
+	let events: Event[] = [];
 	for (let i = 0; i < NB_EVENTS; i++) {
 		events.push({
 			date: t(`timeline.${i}.date`),

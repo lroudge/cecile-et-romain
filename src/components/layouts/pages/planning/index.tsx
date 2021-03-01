@@ -6,6 +6,7 @@ import styles from "../../../../styles/planning.module.css";
 import { useState } from "react";
 import ICalendarLink from "react-icalendar-link";
 import { useTranslation } from "next-i18next";
+import { Props } from "../..";
 
 export type GCalendarEventQuery = {
 	action: string;
@@ -26,7 +27,7 @@ export type ICalEvent = {
 const makeGoogleCalendarUrl = (event: GCalendarEventQuery) =>
 	`https://calendar.google.com/calendar/render?${stringify(event)}`;
 
-export const Planning = () => {
+export const Planning: React.FC<Props> = () => {
 	const { t } = useTranslation("planning");
 	const [buttonsVisible, setButtonsVisible] = useState<
 		"weddingDay" | "brunchDay" | ""

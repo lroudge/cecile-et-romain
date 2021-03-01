@@ -2,11 +2,7 @@ import React, { ReactNode, useState } from "react";
 import { useRouter } from "next/router";
 import styles from "../../styles/footer.module.css";
 import Switch from "react-switch";
-
-type Props = {
-	children?: ReactNode;
-	title?: string;
-};
+import { Props } from "../layouts";
 
 const ToggleLocale: React.FC<Props> = () => {
 	const router = useRouter();

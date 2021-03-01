@@ -1,8 +1,9 @@
 import styles from "../../styles/footer.module.css";
 import { useTranslation, Trans } from "next-i18next";
 import ToggleLocale from "./togglelocale";
+import { Props } from "../layouts";
 
-const Footer = () => {
+const Footer: React.FC<Props> = () => {
 	const { t } = useTranslation("common");
 	return (
 		<footer className={styles.footer}>

@@ -1,7 +1,8 @@
 import styles from "../../styles/Home.module.css";
+import { ReactNode } from "react";
 
-type Props = {
-	children: React.ReactNode;
+export type Props = {
+	children?: ReactNode;
 };
 
 const AppLayout = (props: Props) => (

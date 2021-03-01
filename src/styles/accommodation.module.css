@@ -24,7 +24,22 @@
 }
 
 @media (max-width: 800px) {
-	.guides h3 {
-		font-size: 2vh;
+	.guides ul {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding-left: 0;
+		padding-bottom: 0;
+	}
+
+	.guides li {
+		font-size: 2.5vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-evenly;
+		height: 40vh;
+		width: 75%;
 	}
 }

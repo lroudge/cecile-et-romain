@@ -1,7 +1,8 @@
 import styles from "../../../../styles/Home.module.css";
 import { useTranslation, Trans } from "next-i18next";
+import { Props } from "../..";
 
-export const About = () => {
+export const About: React.FC<Props> = () => {
 	const { t } = useTranslation("about");
 	return (
 		<div>

@@ -3,8 +3,9 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
 import styles from "../../styles/header.module.css";
+import { Props } from "../layouts";
 
-const Header = () => {
+const Header: React.FC<Props> = () => {
 	const router = useRouter();
 	const { t } = useTranslation("common");
 	const pathName = router.pathname;

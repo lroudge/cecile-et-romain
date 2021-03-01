@@ -2,8 +2,9 @@ import styles from "../../../../styles/directions.module.css";
 import { FaCar, FaTrain, FaPlane } from "react-icons/fa";
 import { GiMagicLamp } from "react-icons/gi";
 import { useTranslation, Trans } from "next-i18next";
+import { Props } from "../..";
 
-export const Directions = () => {
+export const Directions: React.FC<Props> = () => {
 	const { t } = useTranslation("directions");
 	return (
 		<div>

@@ -2,8 +2,9 @@ import styles from "../../styles/Home.module.css";
 import Link from "next/link";
 import { useTranslation } from "next-i18next";
 import ToggleLocale from "../footer/togglelocale";
+import { Props } from ".";
 
-const HomeLayout = () => {
+const HomeLayout: React.FC<Props> = () => {
 	const { t } = useTranslation("common");
 	return (
 		<div className={styles.splash}>

@@ -1,19 +1,20 @@
 import { useTranslation, Trans } from "next-i18next";
+import { Props } from "../..";
 
-export const Gifts = () => {
+export const Gifts: React.FC<Props> = () => {
 	const { t } = useTranslation("gifts");
 	return (
 		<div>
 			<h1>{t("title")}</h1>
 			<div>
 				<Trans i18nKey="find" t={t}>
-					<a
+					{/* <a
 						target="_blank"
 						rel="nooopener noreferrer"
 						aria-describedby="new-window"
 						href="https://google.com">
 						ici
-					</a>
+					</a> */}
 				</Trans>
 				<br />
 				<br />
@@ -21,8 +22,8 @@ export const Gifts = () => {
 				<br />
 				<div>
 					<img
-						height="50%"
-						width="50%"
+						height="45%"
+						width="45%"
 						alt="Glasses toasting with a heart"
 						src="https://user-images.githubusercontent.com/44481637/109026124-af7d7d00-76bf-11eb-90a7-57ed48a7ba6f.png"></img>
 				</div>

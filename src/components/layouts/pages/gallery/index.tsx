@@ -1,7 +1,8 @@
 import { useTranslation } from "next-i18next";
 import styles from "../../../../styles/Home.module.css";
+import { Props } from "../..";
 
-export const Gallery = () => {
+export const Gallery: React.FC<Props> = () => {
 	const { t } = useTranslation("gallery");
 	return (
 		<div className={styles.large_content}>
