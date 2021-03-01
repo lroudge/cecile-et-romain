@@ -1,5 +1,5 @@
 # Cécile & Romain's Wedding Website :yellow_heart:
-Check it out here :arrow_right: cecile-et-romain.fr
+Check it out here :arrow_right: [cecile-et-romain.fr](https://cecile-et-romain.fr)
 
 ## Motivation and purpose :grey_question:
 
