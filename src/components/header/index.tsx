@@ -39,6 +39,16 @@ const Header: React.FC<Props> = () => {
 					</Link>
 				);
 			})}
+			<div className={styles.nav_option}>
+				<a
+					className={styles.nav_special}
+					rel="noopener noreferrer"
+					target="_blank"
+					aria-describedby="new-window"
+					href="https://docs.google.com/forms/d/e/1FAIpQLSddAb-Tf8558e3XTlr8m2pcp0tvuT6LelvoFlYkcHsJZ3cfmQ/viewform">
+					RSVP
+				</a>
+			</div>
 		</div>
 	);
 };

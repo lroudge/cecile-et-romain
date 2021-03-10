@@ -67,12 +67,14 @@
 	flex: 2;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
-	min-height: 100vh;
+	min-height: 90vh;
 	animation: blur 1s ease-in 0s forwards;
 	-webkit-animation: blur 1s ease-in 0s forwards;
 	-moz-animation: blur 1s ease-in 0s forwards;
+	margin-top: 7vh;
+	margin-bottom: 3vh;
 }
 
 .content {

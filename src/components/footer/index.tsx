@@ -18,7 +18,6 @@ const Footer: React.FC<Props> = () => {
 					</span>
 				</Trans>
 			</a>
-
 			<ToggleLocale />
 			<div hidden>
 				<span id="new-window">Opens in a new window</span>
