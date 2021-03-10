@@ -6,7 +6,9 @@ export type Props = {
 };
 
 const AppLayout = (props: Props) => (
-	<div className={styles.content}>{props.children}</div>
+	<div className={styles.content}>
+		{props.children}
+	</div>
 );
 
 export default AppLayout;

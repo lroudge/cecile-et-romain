@@ -8,8 +8,13 @@ import Footer from "../components/footer";
 import AppLayout from "../components/layouts";
 import HomeLayout from "../components/layouts/home";
 import { appWithTranslation } from "next-i18next";
+// import { BsArrowUpShort } from "react-icons/bs";
 
-const AppWrapper: React.FC<AppProps> = ({ Component, pageProps, router }: AppProps) => {
+const AppWrapper: React.FC<AppProps> = ({
+	Component,
+	pageProps,
+	router
+}: AppProps) => {
 	let component: React.ReactNode = <Component {...pageProps} />;
 	return (
 		<div className={styles.container}>
@@ -20,11 +25,13 @@ const AppWrapper: React.FC<AppProps> = ({ Component, pageProps, router }: AppPro
 			{router.pathname === "/" ? (
 				<HomeLayout />
 			) : (
-				<main className={styles.main}>
+				<div>
 					<Header />
-					<AppLayout>{component}</AppLayout>
+					<main className={styles.main}>
+						<AppLayout>{component}</AppLayout>
+					</main>
 					<Footer />
-				</main>
+				</div>
 			)}
 		</div>
 	);

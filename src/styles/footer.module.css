@@ -1,6 +1,7 @@
 .footer {
 	width: 100%;
 	height: min-content;
+	max-height: 5vh;
 	border-top: 0.5px solid #eaeaeaad;
 	display: flex;
 	justify-content: space-between;
@@ -11,6 +12,9 @@
 	animation: appear 1s ease-in 0s forwards;
 	-webkit-animation: appear 1s ease-in 0s forwards;
 	-moz-animation: appear 1s ease-in 0s forwards;
+	backdrop-filter: blur(30px);
+	position: fixed;
+	bottom: 0;
 }
 
 .toggle_locale {
@@ -18,4 +22,13 @@
 	flex-direction: row;
 	justify-content: space-evenly;
 	align-items: center;
+}
+
+@keyframes appear {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }

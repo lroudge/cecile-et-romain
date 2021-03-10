@@ -20,12 +20,12 @@ body::-webkit-scrollbar {
 }
 
 h1 {
-	font-family: "Philosopher";
+	font-family: "Lusitana";
 }
 
 @font-face {
-	font-family: "Philosopher";
-	src: url("../fonts/Philosopher-Regular.ttf") format("truetype");
+	font-family: "Lusitana";
+	src: url("../fonts/Lusitana-Regular.ttf") format("truetype");
 }
 
 @font-face {
