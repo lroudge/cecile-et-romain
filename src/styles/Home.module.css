@@ -145,3 +145,11 @@
 		width: 95vw;
 	}
 }
+
+@media (max-width: 1200px) {
+	.main {
+		margin-top: 2.5em;
+		margin-bottom: 5vh;
+		min-height: 95vh;
+	}
+}
